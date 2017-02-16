@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.17)  13 FEB 2017 12:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.17)  13 FEB 2017 14:31
 entering extended mode
 **arbeit.tex
 (arbeit.tex
@@ -681,8 +681,9 @@ Package scrkbase Info: You've told me to redefine the font selection of the
 Package scrkbase Warning: `pagehead' is only an alias of `pageheadfoot'.
 (scrkbase)                Font of page foot may also be changed on input line 114.
 
-(arbeit.aux (kapitel/titel.aux) (kapitel/abstract.aux) (kapitel/introduction.aux) (kapitel/grafiken.aux)
-(kapitel/erklaerung.aux) (kapitel/abtretungserklaerung.aux))
+(arbeit.aux (kapitel/titel.aux) (kapitel/abstract.aux) (kapitel/introduction.aux) (kapitel/background.aux)
+(kapitel/contributions.aux) (kapitel/conclusion.aux) (kapitel/grafiken.aux) (kapitel/erklaerung.aux)
+(kapitel/abtretungserklaerung.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
 LaTeX Font Info:    ... okay on input line 125.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
@@ -823,7 +824,7 @@ Package tocstyle Info: prepare \l@figure for redefinition on input line 125.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
  (kapitel/titel.tex
-<grafiken/unilogo.png, id=62, 1445.4pt x 281.05pt>
+<grafiken/unilogo.png, id=50, 1445.4pt x 281.05pt>
 File: grafiken/unilogo.png Graphic file (type png)
  <use grafiken/unilogo.png>
 Package pdftex.def Info: grafiken/unilogo.png used on input line 10.
@@ -886,26 +887,14 @@ m (toc, 0): 17.62482pt
 C (toc, 0): 0.0pt
 a (toc, 0): 20.69444pt
 A (toc, 0): 0.0pt
-m (toc, 1): 27.02475pt
-C (toc, 1): 17.25pt
-a (toc, 1): 27.08583pt
-A (toc, 1): 20.69444pt
-m (toc, 2): 37.59956pt
-C (toc, 2): 41.40253pt
-a (toc, 2): 33.29132pt
-A (toc, 2): 41.40253pt
-m (toc, 2): 37.59956pt
-C (toc, 2): 41.40253pt
-a (toc, 2): 33.29132pt
-A (toc, 2): 41.40253pt
-m (toc, 2): 37.59956pt
-C (toc, 2): 41.40253pt
-a (toc, 2): 33.29132pt
-A (toc, 2): 41.40253pt
-m (toc, 2): 37.59956pt
-C (toc, 2): 41.40253pt
-a (toc, 2): 33.29132pt
-A (toc, 2): 41.40253pt
+m (toc, 0): 17.62482pt
+C (toc, 0): 0.0pt
+a (toc, 0): 20.69444pt
+A (toc, 0): 0.0pt
+m (toc, 0): 17.62482pt
+C (toc, 0): 0.0pt
+a (toc, 0): 20.69444pt
+A (toc, 0): 0.0pt
 m (toc, 0): 17.62482pt
 C (toc, 0): 0.0pt
 a (toc, 0): 20.69444pt
@@ -930,25 +919,11 @@ A (toc, 1): 20.69444pt
 \tf@toc=\write5
  [5] [6
 
-] (arbeit.lof
-m (lof, 1): 27.02475pt
-C (lof, 1): 17.62482pt
-a (lof, 1): 24.15253pt
-A (lof, 1): 17.62482pt
-)
+] (arbeit.lof)
 \tf@lof=\write6
  [7] [8
 
-] (arbeit.lot
-m (lot, 1): 27.02475pt
-C (lot, 1): 17.62482pt
-a (lot, 1): 24.15253pt
-A (lot, 1): 17.62482pt
-m (lot, 1): 27.02475pt
-C (lot, 1): 17.62482pt
-a (lot, 1): 24.15253pt
-A (lot, 1): 17.62482pt
-)
+] (arbeit.lot)
 \tf@lot=\write7
  [9] (arbeit.nls) [10
 
@@ -956,90 +931,42 @@ A (lot, 1): 17.62482pt
 
 ] (kapitel/introduction.tex
 Chapter 1.
-
-Overfull \hbox (24.9222pt too wide) in paragraph at lines 10--11
-[]\OT1/cmr/m/n/12 Fur alle Ausar-beitun-gen sind die Tem-plates des Lehrstuhls ([][]$\OT1/cmtt/m/n/12 http : / / swt . 
-informatik .
- []
+) [1
 
 
-Overfull \hbox (9.74052pt too wide) in paragraph at lines 10--11
-\OT1/cmtt/m/n/12 uni-[]mannheim . de / de / studies / master-[]and-[]bachelor-[]theses / guidelines/$[][]\OT1/cmr/m/n/12
- ) zu
- []
-
-
-Underfull \hbox (badness 2790) in paragraph at lines 30--30
-[]\OT1/cmr/m/n/12 Anzahl der abzugeben-den
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]\OT1/cmr/m/n/12 3 Ex-em-plare
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-\OT1/cmr/m/n/12 (gebun-den) an
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-[]\OT1/cmr/m/n/12 3 Ex-em-plare
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-\OT1/cmr/m/n/12 (gebun-den) an
- []
-
-
-Underfull \vbox (badness 5245) has occurred while \output is active []
-
- [1
-
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
-
-Overfull \hbox (16.61606pt too wide) in paragraph at lines 43--44
-[]\OT1/cmr/m/n/12 IEEE Com-puter So-ci-ety Dig-i-tal Li-brary: [][]$\OT1/cmtt/m/n/12 http : / / www . computer . org / p
-ortal /
- []
-
-
-Overfull \hbox (6.5709pt too wide) in paragraph at lines 51--52
-[]\OT1/cmr/m/n/12 Das Lit-er-aturverze-ich-nis ist en-st-prechend den Vor-gaben des Tem-plates aufzubauen.
- []
-
-[2]
-Overfull \hbox (0.10849pt too wide) in paragraph at lines 75--76
-[]\OT1/cmr/m/n/12 Eventuell aus-gehandigte Schlussel, Bucher oder son-stige Lei-h-gaben des Lehrstuhls
- []
-
-<grafiken/grafik.pdf, id=154, 116.32028pt x 116.32028pt>
-File: grafiken/grafik.pdf Graphic file (type pdf)
- <use grafiken/grafik.pdf>
-Package pdftex.def Info: grafiken/grafik.pdf used on input line 99.
-(pdftex.def)             Requested size: 28.88257pt x 28.8812pt.
-) [3 <./grafiken/grafik.pdf>]
-(kapitel/grafiken.tex [4
+] (kapitel/background.tex [2
 
 
 
 ]
 Chapter 2.
+) [3] (kapitel/contributions.tex [4
+
+
+
+]
+Chapter 3.
+) [5]
+No file kapitel/conclusion.tex.
+(kapitel/grafiken.tex [6
+
+
+
+
+
+]
+Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
 
 Overfull \hbox (41.16516pt too wide) in paragraph at lines 19--28
 []\OT1/cmr/m/n/12 Die zu er-stel-lende Soft-ware soll im pack-age de.uni[]mannheim.informatik.swt.\OT1/cmtt/m/n/12 proje
@@ -1061,30 +988,35 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 ) (code/GuestbookForm.java.txt
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
- [5]))
-[6] (arbeit.bbl) [7
+ [7]))
+[8] (arbeit.bbl
+
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 3.
+
+) [9
 
 
-] [8
+] [10
 
-] [9] [10] (kapitel/append.tex
+] [11] [12] (kapitel/append.tex
 Appendix A.
-) [11
+) [13
 
-] (kapitel/erklaerung.tex [12
+] (kapitel/erklaerung.tex [14
 
 
 ])
-Overfull \hbox (1.45341pt too wide) in paragraph at lines 21--185
+Overfull \hbox (1.45341pt too wide) in paragraph at lines 21--188
 []\OT1/cmr/m/n/12 Mannheim, Febru-ary 13, 2017  Un-ter-schrift 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--185
+Underfull \hbox (badness 10000) in paragraph at lines 21--188
 
  []
 
-[13] (kapitel/abtretungserklaerung.tex [14
+[15] (kapitel/abtretungserklaerung.tex [16
 
 
 
@@ -1099,47 +1031,43 @@ Overfull \hbox (21.91101pt too wide) in paragraph at lines 3--6
  []
 
 )
-Overfull \hbox (1.45341pt too wide) in paragraph at lines 20--188
+Overfull \hbox (1.45341pt too wide) in paragraph at lines 20--191
 []\OT1/cmr/m/n/12 Mannheim, Febru-ary 13, 2017  Un-ter-schrift 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--188
+Underfull \hbox (badness 10000) in paragraph at lines 20--191
 
  []
 
-[15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
- (arbeit.aux (kapitel/titel.aux) (kapitel/abstract.aux) (kapitel/introduction.aux) (kapitel/grafiken.aux)
-(kapitel/erklaerung.aux) (kapitel/abtretungserklaerung.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
+[17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+ (arbeit.aux (kapitel/titel.aux) (kapitel/abstract.aux) (kapitel/introduction.aux) (kapitel/background.aux)
+(kapitel/contributions.aux) (kapitel/conclusion.aux) (kapitel/grafiken.aux) (kapitel/erklaerung.aux)
+(kapitel/abtretungserklaerung.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
 Package rerunfilecheck Info: File `arbeit.out' has not changed.
-(rerunfilecheck)             Checksum: D4609CE3DDA1BFB7152318B2501600D7;885.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 73 ({)
-### bottom level 
+(rerunfilecheck)             Checksum: 0688489D38119B7F7694782E9C584451;665.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
+ ) 
 Here is how much of TeX's memory you used:
- 10864 strings out of 493698
- 165767 string characters out of 3144406
- 361163 words of memory out of 3000000
- 13886 multiletter control sequences out of 15000+200000
- 9030 words of font info for 32 fonts, out of 3000000 for 9000
+ 10792 strings out of 493698
+ 163721 string characters out of 3144406
+ 361628 words of memory out of 3000000
+ 13805 multiletter control sequences out of 15000+200000
+ 8683 words of font info for 31 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 43i,11n,56p,514b,2031s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on arbeit.pdf (25 pages, 210608 bytes).
+ 43i,11n,56p,507b,1941s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on arbeit.pdf (27 pages, 186470 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
