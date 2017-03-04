@@ -3,10 +3,18 @@
 \BOOKMARK [0][-]{chapter*.4}{List of Tables}{}% 3
 \BOOKMARK [0][-]{chapter*.4}{List of Abbreviations}{}% 4
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
-\BOOKMARK [0][-]{chapter.2}{Foundations / Background}{}% 6
-\BOOKMARK [0][-]{chapter.3}{Sustainable Software Engineering}{}% 7
-\BOOKMARK [0][-]{chapter.4}{Implementierung}{}% 8
-\BOOKMARK [0][-]{appendix*.5}{Bibliography}{}% 9
-\BOOKMARK [-1][-]{section*.6}{Appendix}{}% 10
-\BOOKMARK [0][-]{appendix.A}{First class of appendices}{section*.6}% 11
-\BOOKMARK [1][-]{section.A.1}{Some appendix}{appendix.A}% 12
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Sustainability and Sustainable Software Engineering}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Related work in Sustainable Software Engineering}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.1}{Principles and Manifestos}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.2}{Models and metrics}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.3}{The SECoMo approach}{section.2.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Contributions}{}% 12
+\BOOKMARK [1][-]{section.3.1}{Why sustainable software engineering is not yet used in practice\(?!\)}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.2}{SeCoMo in the context of Sustainable SW Engineering}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{Findings\(?\)}{}% 15
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 16
+\BOOKMARK [0][-]{appendix*.5}{Bibliography}{}% 17
+\BOOKMARK [-1][-]{section*.6}{Appendix}{}% 18
+\BOOKMARK [0][-]{appendix.A}{First class of appendices}{section*.6}% 19
+\BOOKMARK [1][-]{section.A.1}{Some appendix}{appendix.A}% 20

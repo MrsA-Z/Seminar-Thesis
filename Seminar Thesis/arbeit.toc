@@ -5,10 +5,18 @@
 \contentsline {chapter}{\nonumberline List of Tables}{ix}{chapter*.4}
 \contentsline {chapter}{List of Abbreviations}{x}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Foundations / Background}{3}{chapter.2}
-\contentsline {chapter}{\numberline {3}Sustainable Software Engineering}{5}{chapter.3}
-\contentsline {chapter}{\numberline {4}Implementierung}{7}{chapter.4}
-\contentsline {chapter}{\nonumberline Bibliography}{9}{appendix*.5}
-\contentsline {part}{\nonumberline Appendix}{11}{section*.6}
-\contentsline {chapter}{\numberline {A}First class of appendices}{13}{appendix.A}
-\contentsline {section}{\numberline {A.1}Some appendix}{13}{section.A.1}
+\contentsline {chapter}{\numberline {2}Background}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Sustainability and Sustainable Software Engineering}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Related work in Sustainable Software Engineering}{3}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Principles and Manifestos}{3}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Models and metrics}{3}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}The SECoMo approach}{3}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Contributions}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Why sustainable software engineering is not yet used in practice(?!)}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}SeCoMo in the context of Sustainable SW Engineering}{5}{section.3.2}
+\contentsline {chapter}{\numberline {4}Findings(?)}{7}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusion}{9}{chapter.5}
+\contentsline {chapter}{\nonumberline Bibliography}{11}{appendix*.5}
+\contentsline {part}{\nonumberline Appendix}{13}{section*.6}
+\contentsline {chapter}{\numberline {A}First class of appendices}{15}{appendix.A}
+\contentsline {section}{\numberline {A.1}Some appendix}{15}{section.A.1}
