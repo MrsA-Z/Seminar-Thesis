@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.17)  4 MAR 2017 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.17)  9 APR 2017 13:56
 entering extended mode
 **arbeit.tex
 (arbeit.tex
@@ -823,7 +823,7 @@ Package tocstyle Info: prepare \l@figure for redefinition on input line 125.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
  (kapitel/titel.tex
-<grafiken/unilogo.png, id=82, 1445.4pt x 281.05pt>
+<grafiken/unilogo.png, id=86, 1445.4pt x 281.05pt>
 File: grafiken/unilogo.png Graphic file (type png)
  <use grafiken/unilogo.png>
 Package pdftex.def Info: grafiken/unilogo.png used on input line 10.
@@ -907,6 +907,10 @@ m (toc, 2): 37.59956pt
 C (toc, 2): 41.40253pt
 a (toc, 2): 33.29132pt
 A (toc, 2): 41.40253pt
+m (toc, 2): 37.59956pt
+C (toc, 2): 41.40253pt
+a (toc, 2): 33.29132pt
+A (toc, 2): 41.40253pt
 m (toc, 0): 17.62482pt
 C (toc, 0): 0.0pt
 a (toc, 0): 20.69444pt
@@ -945,18 +949,22 @@ a (toc, 1): 27.08583pt
 A (toc, 1): 20.69444pt
 )
 \tf@toc=\write5
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [5
 
 
-] [6
-
-] (arbeit.lof)
+] [6] (arbeit.lof)
 \tf@lof=\write6
- [7] [8
+ [7
+
+] [8
 
 ] (arbeit.lot)
 \tf@lot=\write7
- [9] (arbeit.nls) [10
+ [9]
+(arbeit.nls) [10
 
 
 
@@ -971,13 +979,18 @@ Chapter 1.
 
 ]
 Chapter 2.
-) [3] (kapitel/contributions.tex [4
 
+Underfull \hbox (badness 10000) in paragraph at lines 51--60
 
+ []
 
-]
+[3]) [4] (kapitel/contributions.tex
 Chapter 3.
-[5] [6
+[5
+
+
+
+] [6
 
 ]
 Chapter 4.
@@ -990,12 +1003,7 @@ Chapter 5.
 ) [9] (arbeit.bbl [10
 
 
-]
-
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 3.
-
-) [11] [12
+]) [11] [12
 
 ] [13] [14] (kapitel/append.tex
 Appendix A.
@@ -1036,23 +1044,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
 Package rerunfilecheck Info: File `arbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 38080EB60E6C56AB73CB80A6EE08E036;1316.
+(rerunfilecheck)             Checksum: 994EB6552B650CA085D797E6AB1181BC;1400.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
- 10367 strings out of 493698
- 159700 string characters out of 3144406
- 317037 words of memory out of 3000000
- 13423 multiletter control sequences out of 15000+200000
- 8375 words of font info for 30 fonts, out of 3000000 for 9000
+ 10373 strings out of 493698
+ 159796 string characters out of 3144406
+ 318076 words of memory out of 3000000
+ 13426 multiletter control sequences out of 15000+200000
+ 8722 words of font info for 31 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 43i,10n,56p,824b,386s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,10n,56p,823b,386s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on arbeit.pdf (29 pages, 143966 bytes).
+2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on arbeit.pdf (29 pages, 163223 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 284 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 174 words of extra memory for PDF output out of 10000 (max. 10000000)
 

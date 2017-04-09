@@ -1,3 +1,9 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{schulze_cost_2016}
+Thomas Schulze.
+\newblock {\em A {Cost} model for {Expressing} and {Estimating} {Ecological}
+  {Costs} of {Software}-{Driven} {Systems}}.
+\newblock PhD thesis, Universität Mannheim, Mannheim, 2016.
 
 \end{thebibliography}

@@ -1,0 +1,49 @@
+\subsection{The SECoMo Approach}
+%Überleitung: very general - where does it fit in? - or NOT and just put it together in the "contributions"' part
+A relatively new addition to the field of sustainable software engineering approaches %ok to say it like that?
+ is the %wie Sachen hervorheben??
+\textbf{Software Eco-Cost Model} %wie ging das nochmal - abkürzungen einführen?
+(SECoMo) Approach by Thomas Schulze %wie geht das bei Latex - nur Jahr erwähnen oder so? - oder welchen zitierstil soll ich nutzen?
+\cite{schulze_cost_2016}. This approach provides % wen? software engineers? theoretisch auch andere!
+Software Engineers with generic models and metrics necessary to estimate and express the ecological costs %(of the use of) 
+a software system causes when it is used \cite{schulze_cost_2016}. Thus, SECoMo represents a concrete %???
+ estimation approach for the impact a software system has regarding ecological sustainability during its usage phase. %Maybe in contribution part -> this is new?! cause not much about "`estimation"' yet (true??)
+
+\subsubsection{What is SECoMo about?}
+%vllt 1, 2 direkte zitatie mit einbinden?
+The main motivation behind SECoMo is to provide an approach that allows to not only measure the ecological costs that are actually caused by a software system, but also to be able to estimate those costs upfront, for example already during the design phase of a software engineering project \cite{schulze_cost_2016}. %%mention here: WHY!!! -> because it is cheaper to make changes here, thus it is better to have more information already in this pahsee!!!
+ In order to achieve this, SECoMo offers a set of mathematical models which allow to precisely calculate eco-cost metrics, based on information that is already available in the design phase: specification models %????? %name the auxiliary models that are created from that already?  %what about the "`generic"' part?
+that describe the functionality, behavior and structure of the software system \cite{schulze_cost_2016}. Furthermore, SECoMo is intended to be highly adaptable %??? other word,
+in order to allow the estimates to be calculated for different levels of details available - from an early level where only very general information about the software system is available, over an intermediate level with partly more detailed information, to an advanced level with very specified details that allow for more accurate estimates \cite{schulze_cost_2016}.\\ %is that okay...? %
+In addition to the mathematical models, the SECoMo approach also defines a set of eco-cost drivers in order to identify causes for certain ecological impacts a software system has and to better describe under which circumstances they occur \cite{schulze_cost_2016}. The auxiliary models used in SECoMo which extend the specification models %?????
+provide information about these cost drivers, but can also be used to express the estimated eco-costs of the software system \cite{schulze_cost_2016}. This way, SECoMo additionally offers a possibility to communicate estimated or measured eco-costs to stakeholders of a project which can use this information to make improved decisions \cite{schulze_cost_2016}.\\ %what about: comprehensible and clear - on the right level!?
+%TODO: %mention: how are Eco-Costs defined!? to give context %mention callibration process???
+%what benefits does it offer -> pro's / con's, conclusion? - when to use it? - or put that at the end of the chapter? maybe not to much.. or this could be starting point for comparison - rewrite?!
+Against this background, the SECoMo approach is intended to be used in the early stages of software engineering projects to create estimates about the ecological impact of a software system, so as to enable transparency about the sustainability aspect right from the start \cite{schulze_cost_2016}. This again makes it possible for software engineers and other stakeholders to make decisions about changes to the software at the design stage which take the impact on ecological costs into account %\cite{schulze_cost_2016}
+- be it to improve certain eco-cost critical aspects of the software because ecological sustainability is a major concern, or to at least be aware of the eco-cost trade-offs other decisions cause that might be motivated by other concerns, e.g. profitability. \cite{schulze_cost_2016}\\ %???? possible?
+%+++++++ the aspect that it is CHEAPER!!! to make changes in this phase!!!!!
+But SECoMo can also be used in the context of defining requirements for a software system, for example in terms of specifying upper bounds for the eco-cost metrics that must not be exceeded, or even to calculate exact eco-costs if enough details are given, e.g. for the specific usage scenario of a software system in a certain environment %when all hardware details are known?!
+\cite{schulze_cost_2016}.\\
+
+\subsubsection{How can SECoMo be integrated in a software engineering project?}
+%briefly: "`algorithmic"' estimation model? what does it consist of -metrics, (auxiliary models? -> how? not very specific?), & cost-drivers - other order?
+%HOW does it work? how to "use" SECoMo? to have a "`process"' - see evaluation chapter
+On a very high level, the SECoMo approach, when being used within a software engineering project in order to estimate the eco-costs, can be structured as follows:
+%What to you need to begin with? software needs to be designed at least to a certain level where information about the structure - what components / classes / data types? - and the behaviour & functionality of these components is available / already specified
+% best: with a modelling approach - SECoMo does not require a specific one, but these types of models should be available 
+\begin{enumerate}
+	\item calibrate the models %and resource factors?! -> to implicitly cover these implementation related things.. somehow
+	so that the information about the hardware aspects is accurate and relates to a given situation %???
+	\item prepare the auxiliary models so that they include all information available (or that can be derived, like frequency on the advanced level)
+	%e.g. information needed about frequency - of operation, or how often data type is used in memory / persistent?!
+	\item calculate the estimates for the different eco-cost metrics based on the available information %-> so, which level of detail?
+	and the specified parameter values identifying 
+\end{enumerate}
+%THEN -> derive specific reports etc. for certain stakeholders or communicate via auxiliary models
+% e.g. make decisions, like - oh this data type causes a lot of eco-costs - could be the size of ceratin attributes
+% or this scenario is highly (consumative?!) -> we should just decide not to allow certain combinations of actions to be possible
+
+%limitations?! -> or rather in the contribution part?!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%improve wording, e.g. - not "provide" and "support", "help", but better synonyms!
