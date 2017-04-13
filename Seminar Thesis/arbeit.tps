@@ -54,7 +54,7 @@ Document=kapitel\introduction.tex
 
 [Frame2_View0,0]
 TopLine=0
-Cursor=1715
+Cursor=732
 
 [Frame3]
 Flags=0
@@ -148,5 +148,5 @@ Cursor=6863
 
 [SessionInfo]
 FrameCount=8
-ActiveFrame=3
+ActiveFrame=2
 
