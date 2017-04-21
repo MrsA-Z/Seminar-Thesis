@@ -11,7 +11,7 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1616
+NormalPos.right=1719
 NormalPos.bottom=746
 Class=LaTeXView
 Document=arbeit.tex
@@ -29,7 +29,7 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1616
+NormalPos.right=1719
 NormalPos.bottom=746
 Class=LaTeXView
 Document=kapitel\abstract.tex
@@ -47,7 +47,7 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1616
+NormalPos.right=1719
 NormalPos.bottom=746
 Class=LaTeXView
 Document=kapitel\introduction.tex
@@ -65,14 +65,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1616
+NormalPos.right=1719
 NormalPos.bottom=746
 Class=LaTeXView
 Document=kapitel\background.tex
 
 [Frame3_View0,0]
 TopLine=0
-Cursor=1500
+Cursor=0
 
 [Frame4]
 Flags=0
@@ -83,7 +83,7 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1616
+NormalPos.right=1719
 NormalPos.bottom=746
 Class=LaTeXView
 Document=kapitel\contributions.tex
@@ -101,7 +101,7 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1616
+NormalPos.right=1719
 NormalPos.bottom=746
 Class=BibTeXView
 Document=literatur\lit.bib
@@ -119,7 +119,7 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1616
+NormalPos.right=1719
 NormalPos.bottom=746
 Class=LaTeXView
 Document=kapitel\grafiken.tex
@@ -137,16 +137,16 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1616
+NormalPos.right=1719
 NormalPos.bottom=746
 Class=LaTeXView
 Document=kapitel\SECoMo.tex
 
 [Frame7_View0,0]
-TopLine=31
+TopLine=22
 Cursor=6863
 
 [SessionInfo]
 FrameCount=8
-ActiveFrame=2
+ActiveFrame=3
 

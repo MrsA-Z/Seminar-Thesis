@@ -1,9 +1,34 @@
 \begin{thebibliography}{1}
 
+\bibitem{gladwin_shifting_1995}
+Thomas~N. Gladwin, James~J. Kennelly, and Tara-Shelomith Krause.
+\newblock Shifting paradigms for sustainable development: {Implications} for
+  management theory and research.
+\newblock {\em Academy of management Review}, 20(4):874--907, 1995.
+
+\bibitem{jamieson_sustainability_1998}
+Dale Jamieson.
+\newblock Sustainability and beyond.
+\newblock {\em Ecological Economics}, 24(2):183--192, 1998.
+
+\bibitem{nino_sustainable_2017}
+Florencia~Soto Nino.
+\newblock Sustainable development goals - {United} {Nations}, 2017.
+
+\bibitem{Brundtland1987}
+World~Commission on~Environment and Development.
+\newblock Our common future.
+\newblock also: Brundtland report, United Nations, 1987.
+
 \bibitem{schulze_cost_2016}
 Thomas Schulze.
 \newblock {\em A {Cost} model for {Expressing} and {Estimating} {Ecological}
   {Costs} of {Software}-{Driven} {Systems}}.
 \newblock PhD thesis, Universität Mannheim, Mannheim, 2016.
+
+\bibitem{UN_transform_15}
+{United Nations}.
+\newblock Transforming our world: the 2030 agenda for sustainable development.
+\newblock New York, 2015.
 
 \end{thebibliography}
