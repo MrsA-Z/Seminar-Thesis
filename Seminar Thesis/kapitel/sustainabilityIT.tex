@@ -7,6 +7,7 @@ The ICT sector has a major influence on the way economies and societies work, co
 %describe hardware efforts etc. shortly, idea behing it -> e.g. improving hardware components - or data centers of a company.. or or or -> many papers on that!? % see some papers used for Lund paper?! -> Green IT maturity, strategic aspect etc.
 
 The energy consumption of hardware is one of the main direct impacts ICT has on sustainability, and while these direct impacts are often quite clear, indirectly caused effects of ICT (like the ability to enable improvements in other industries) are often overlooked, even though they can have even greater impacts in the long run. In order to better illustrate the relationship between ICT and Sustainability, a more fine-grained differentiation of the effects of ICT is often used in the literature (for example by \cite{hilty_relevance_2006} or \cite{naumann_greensoft_2011}) which distinguishes between three types: First-order effects, second-order effects and third-order effects. %todo: \cite{} - correct origin paper - talk about origin? first introduced by... berkhout and Hertin -> ONLY environmental dimension? or just mainly?
+%EFFECTS?? (hilty) or IMPACTS?? (greensoft)
 %%more later, see notes->
 While first-order effects refer to direct impacts "of the physical existence of ICT" \cite{hilty_relevance_2006}, like resource consumption during the production or usage phase of hardware, second-order effects describe rather indirect effects that are caused by using ICT, like the optimization of processes which might lead to resource conservation \cite{naumann_greensoft_2011}. The third-order effects refer to impacts observable on a long-term scale, like the "adaptation of behaviour (e.g. consumption patterns) or economic structures" \cite{hilty_relevance_2006} which themselves lead to certain impacts on different aspects of Sustainability.  %-> rebound theory?! (also something in the greensoft paper)
 %mention some more examples? - later
@@ -14,30 +15,63 @@ While first-order effects refer to direct impacts "of the physical existence of 
 
 %%% Hilty: "`How to use ICT in the service of sustainability"'?
 If ICT can have negative and positive impacts on Sustainability on so many different levels, the question that comes to mind is: What are concrete approaches so that ICT can actually be used "in the service of Sustainability"\cite{hilty11}?\\
-According to Hilty et al. \cite{hilty11}, relevant approaches in the field of ICT that contribute to Sustainability in one way or another  are Environmental Informatics, Green IT and Sustainable Human-Computer Interaction (HCI) %abbrev - how to do it?
-. %Further approaches could be... Education? Green Labels for hw or sw products, ... %management approaches, etc.?
- Environmental Informatics describes the 
+According to Hilty et al. \cite{hilty11}, relevant approaches in the field of ICT that contribute to Sustainability in one way or another  are Environmental Informatics, Sustainable Human-Computer Interaction (HCI) %abbrev - how to do it?
+and Green IT\footnote{Also: Green ICT. In the following the term \textit{Green IT} will be used in order to align with the literature.}. %Further approaches could be... Education? Green Labels for hw or sw products, ... %management approaches, etc.?
+ Of those, Environmental Informatics and Sustainable HCI are rather small, specific sub fields, while Green IT is a wide ranging area with many scientific contributions that has also been continuously adapted by companies and organizations %references? da war doch was?
+since the publication of the Gartner Report \textit{Green IT: A New Industry Shock Wave} \cite{gartner07}, which calls attention to the need for more long-term sustainability in companies through Green IT practices.\\ % or: which coined the term, also according to hilty11
+The sub field of Environmental Informatics deals with
+ applications that process environmental information in order to tackle environmental problems \cite{hilty11}. Thus, it contributes to Sustainability by providing tools that enable users to better analyze and understand environmental issues, share environmental data, and so on, and is therefore related to second-order ICT effects. The sub field of Sustainable HCI deals with the connection of software design, human interaction with it, and Sustainability \cite{hilty11}. This covers two categories \cite{hilty11}: Sustainability \textit{In} software design (how sustainable is the use of the designed software itself) and Sustainability \textit{Through} software design (how can the design of the software "promote sustainable behaviour" \cite{hilty11}). This approach therefore relates to first- and second-order impacts of ICT.\\
+The approach of Green IT is slightly more complex, as it refers to various aspects of the lifecylce of ICT products but also related areas that are impacted by ICT (for example the creation of sustainable business processes or practices) %cite murugesan, 11?? - orriginal citation?
+. Essentially, Green IT also covers two categories: Green \textit{In} IT and Green \textit{By} IT \cite{hilty11}. While Green In IT refers to ICT as resource consumer and carbon emission producer itself and deals with the question how to improve the environmental sustainability of ICT hardware \cite{calero_green_2015}, Green By IT aims at improving the environmental sustainability of aspects in different areas (other products or processes) by using ICT as the enabler \cite{hilty11}. Especially the category of Green In IT is a very broad field that covers the whole life cycle of ICT products, from its production over the usage phase until its disposal or recycling phase, and it is important to consider impacts of ICT in all these life cycle phases in order to achieve holistic environmental sustainability \cite{hilty11}. %???
+Green IT is related to first- and second-order effects of ICT, but as a strategic concept adapted by many companies and organizations, it has the potential to create long-term, third-order effects. %by changing e.g. the way data centers are run permanently
+%enhance with details from other paper!!
 
-The focus of sustainable hci is on increasing sustainability THROUGH desing -> ... , but also IN Desing ..
-
-The concept of Green IT 
-%more details? what is Green IT, mainly green IN and BY it, introduce  -> see hility and other paper!!
-
-%überleitung: but.. main focus, especially of green it -> is on hardware! but important other aspect of ICT is also: software, the applications!
+Even though ICT products consist not only of hardware artifacts but also software artifacts, the main focus of Green In IT is usually on improving the sustainability of ICT hardware, %see notes for some references here!!
+and often Green By IT approaches also do not take the impacts of software artifacts fully into account. %reference??
 
 %%% Special focus: Software - how to use software in this 
-%go back - naiive idea - does software even have an impact? -> Yes! relate back to impacts introduction before (see Lund paper here: reuse some stuff?)
+But software artifacts actually play an equally important role in the relationship of ICT and Sustainability: %These!
+Although, at the first glance, it may seem that software as the immaterial % check with paper - reference?
+part of the ICT products does not have an impact on Sustainability, especially environmental sustainability, it is easy to show that this naive assumption is wrong. %refer to lund paper & the ideas
+%go back - naiive idea - does software even have an impact? -> Yes! relate back to impacts introduction before  - name some direct?!?! during creation for example? probably disposal?
+% butmainly indirect impacts 2nd and 3rd  order! (see Lund paper here: reuse some stuff?)
+During its usage phase, it is true that the software does not directly consume energy - but (something about the software influences HOW hardware products consume energy!) %find this citation again!! in my notes..
+Other examples for indirect impacts are.. 
 %blabla.. describe some examples of impacts to give an idea (see Lund paper?)  why is sustainable software important? and how to observe that -> see Amsel / Argawal! 
 
-%so - also software has an impact - like it in general: as enabler AND as product itself - so its obvious that it should be somehow a topic in the field of software engineering - which deals with the process of creating software (see  a correct definition, maybe this IEEE glossary?)
-%but anyway - not really part of "`traditional SE"' (see penzenstadler) - e.g. no NFR (even though required - who said that again? amsel oder argawal?) -> and penzenstadler -> safety security etc -> but not yet %(is that correct????) 
-% + mention: in the following: aspects of "`green"' software engineering are (succumbed???) by this defiintion, as the environmental aspect is part of it
-
+Overall, software thus has direct and indirect impacts on Sustainability just like ICT in general, either as the producer / consumer itself or as enabler for other aspects. %???
+ Accordingly, it is clear that also for the ICT sub field of software engineering %definition?? maybe this IEEE glossary?)
+ there is a need for dealing with topics concerning Sustainability. But so far, Sustainability considerations are not a part of "traditional software engineering"'%cite?? penzenstadler, what? see notes?
+ methods. %where to put??
+%A first step of integrating Sustainability into traditional software engineering would be to introduce it as a new Nonfunctional Requirement, as suggested by various authors %name them
+% who said that again? amsel oder argawal?) -> and penzenstadler -> safety security etc -> but not yet %(is that correct????) 
+%define what a NFR is??
+ This is critized by a growing number of authors %name some!!
+, as the awareness for the importance of Sustainability in Software Engineering grows, and the emerging field of \textit{Sustainable} or \textit{Green Software Engineering}\footnote{In the following, the term \textit{Sustainable Software Engineering} will be used, as it comprises the aspect of environmental (green) aspects as well as social and economic aspects, which are equally important parts of Sustainability considerations, even though environmental aspects are the majority.} aims at filling this gap by %blabla, creating 
+working on approaches and methods that deal with sustainable software and its engineering.
 %so -> this is the task of the field of sustainable software engineering! -> (how to develop sustainable software and how to develop it in a sustainable way)
-%--> coming back to the question: how to use ICT in service of sust? --> sustainable SE should be added as approach! :)
 
-% So - what exactly is it? although many definitions exist and in the reasearch common understanding that NO COMMON definition exists - for this paper relating to Naumann et al (e.g. instead of amsel) -> because it relates to the sustainability dimensions :)
-% or in next chapter????
+Returning to the question of how ICT can be in the service of Sustainability, Sustainable Software Engineering constitutes another important approach that should be added to the list.  
+%which impacts does it tackle? .. as it relates to first- and second-order impacts of especially Software on Sustainability!
+
+In the literature, there does not yet exist one common definition of Sustainable Software and Sustainable Software Engineering %cite someone??!?
+. This is a result of the early stage of the research field and the fact that different perspectives exists from which these definitions are created. %%reference some of the literature!!!
+Many authors have taken up the challenge % klingt so dramatisch, was anderes!!
+to identify the one common understanding of Sustainability in Software Engineering, but they all come to the conclusion.. %see tower of babel, green in SE and so on
+ Nevertheless, for the purpose of this paper we %???
+chose the definition by Dick et al. \cite{dick_model_2010} %find correct citation!!!
+for Sustainable Software, as it best relates to the three dimensions of Sustainability: %name them?  % e.g. instead of others like amsel
+\begin{citation}
+	"Sustainable Software is software whose direct and indirect negative impacts on economy, society, human beings, and the environment resulting from development, deployment, and usage of the software is minimal and/or has a positive effect on sustainable development" \cite{dick_model_2010}
+\end{citation}
+Accordingly, Sustainable Software Engineering is understood as the systematics methodology to develop such Sustainable Software. It is defined by Naumann et al. as
+\begin{citation}
+" [...] Sustainable Software Engineering is the art of developing [...] sustainable software with a [...] sustainable software engineering process. Therefore, it is the art of defining and developing software products in a way, so that the negative and positive impacts on sustainable development that result [...] from the software product over its whole life cycle are continuously assessed, documented, and used for a further optimization of the software product" \cite{naumann_greensoft_2011} %p. 3
+\end{citation}
+
+%mention: nice: focus on whole lifecycle -> as already seen with Green IT!
+
+%abschluss ???
 
 
 \section{Related work in Sustainable Software Engineering} %Development?
@@ -54,6 +88,7 @@ The concept of Green IT
 
 %%% Overview of what is there - models etc? - TOMORROW!!!
 %general: classification of aspects like penzenstadler to give everything a bit more structure
+%does it fit here: combination of Green BY software and IN software? see a relation here?
 
 %lifecycle models
 
