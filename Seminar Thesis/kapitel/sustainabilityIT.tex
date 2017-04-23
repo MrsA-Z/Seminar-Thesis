@@ -31,17 +31,13 @@ and often Green By IT approaches also do not take the impacts of software artifa
 
 %%% Special focus: Software - how to use software in this 
 But software artifacts actually play an equally important role in the relationship of ICT and Sustainability: %These!
-Although, at the first glance, it may seem that software as the immaterial % check with paper - reference?
-part of the ICT products does not have an impact on Sustainability, especially environmental sustainability, it is easy to show that this naive assumption is wrong. %refer to lund paper & the ideas
-%go back - naiive idea - does software even have an impact? -> Yes! relate back to impacts introduction before  - name some direct?!?! during creation for example? probably disposal?
-% butmainly indirect impacts 2nd and 3rd  order! (see Lund paper here: reuse some stuff?)
-During its usage phase, it is true that the software does not directly consume energy - but if software is regarded as "the ultimate cause of hardware requirements and energy consumption" \cite{kern_impacts_2015}, it becomes clear that it is after all indirectly influencing impacts on Sustainability and thus needs to be taken into account as an equally important aspect.\\
-Other examples for indirect impacts are.. 
-%blabla.. describe some examples of impacts to give an idea (see Lund paper?)  why is sustainable software important? and how to observe that -> see Amsel / Argawal! 
+Although, at the first glance, it may seem that software as the immaterial % check with paper - reference? for example hilty11
+part of the ICT products does not have an impact on Sustainability, especially environmental sustainability, and "is automatically green" \cite{agarwal_sustainable_2012}, this naive assumption is wrong: when software is developed, a lot of physical resources are needed during this process; when software is used, it has impacts on other aspects of its surroundings, for example by processing environmental data to better understand Sustainability challenges; when software is deactivated, dealing with saving or converting its data might have economic impacts on a company for example \cite{johann_sustainable_2011}; and it can even have long-term third-order effects like changing user behavior towards more sustainable practices like video conferencing instead of traveling to business meetings \cite{amsel_toward_2011}. %impact on e-waste due to software with higher requirements? -> albertao
+During its usage phase, it is true that the software does not directly consume energy - but if software is regarded as "the ultimate cause of hardware requirements and energy consumption" \cite{kern_impacts_2015}, it becomes clear that it is after all indirectly influencing also energy efficiency aspects. Considering all these impacts, software definitely needs to be taken into account as an equally important part of ICT Sustainability considerations.
 
-Overall, software thus has direct and indirect impacts on Sustainability just like ICT in general, either as the producer / consumer itself or as enabler for other aspects. %???
+Overall, software thus has direct and indirect impacts on Sustainability just like ICT in general, either as the producer / consumer itself or as enabler for improvements in other areas. %???
  Accordingly, it is clear that also for the ICT sub field of software engineering %definition?? maybe this IEEE glossary?)
- there is a need for dealing with topics concerning Sustainability. But so far, Sustainability considerations are not a part of "traditional software engineering" \cite{penzenstadler_supporting_2012} methods.  This is critized by a growing number of authors %name some!! penzenstadler, amsel oder alberato?
+ there is a need for dealing with topics concerning Sustainability. But so far, Sustainability considerations are not a part of "traditional software engineering" \cite{penzenstadler_supporting_2012} methods.  This is critized by a growing number of authors (\cite{penzenstadler_supporting_2012}; \cite{agarwal_sustainable_2012}) %+amsel oder alberato? 
 , as the awareness for the importance of Sustainability in Software Engineering grows, and the emerging field of \textit{Sustainable} or \textit{Green Software Engineering}\footnote{In the following, the term \textit{Sustainable Software Engineering} will be used, as it comprises the aspect of environmental (green) aspects as well as social and economic aspects, which are equally important parts of Sustainability considerations, even though environmental aspects are the majority.} aims at filling this gap by %blabla, creating 
 working on approaches and methods that deal with sustainable software and its engineering.
 %so -> this is the task of the field of sustainable software engineering! -> (how to develop sustainable software and how to develop it in a sustainable way)
@@ -58,16 +54,16 @@ Accordingly, Sustainable Software Engineering can be understood as the systemati
 \begin{quote}
 " [...] Sustainable Software Engineering is the art of developing [...] sustainable software with a [...] sustainable software engineering process. Therefore, it is the art of defining and developing software products in a way, so that the negative and positive impacts on sustainable development that result [...] from the software product over its whole life cycle are continuously assessed, documented, and used for a further optimization of the software product" \cite{naumann_greensoft_2011} %p. 3
 \end{quote}
-%mention: nice: focus on whole lifecycle -> as already seen with Green IT!
-
-%hier oder anderswo: kategorisierung von penzenstadler development / maintenance process etc. einbinden
-%abschluss ???
+%mention: nice: focus on whole lifecycle -> as already seen with Green IT
+This definition is providing a holistic description of the idea of sustainable software engineering, especially due to its focus on the impacts the software product produces over its whole life cycle. %, which is also in line with the concepts for example mentioned for Green In IT.
+In this context, Penzenstadler \cite{penzenstadler_supporting_2012} provides a categorization of Software Sustainability aspects that reflects the variety of impacts software can have. It differentiates between four aspects: the development process aspect, the maintenance process aspect, the system production aspect and the system usage aspect \cite{penzenstadler_supporting_2012}. The first two aspects represent the development process viewpoint and describe the sustainability of the actual design and development phase (development process aspect) and the sustainability of the subsequent maintenance phase with aspects like monitoring or bug fixing (maintenance process aspect) \cite{penzenstadler_sustainability_2012}. The other two aspects constitute the product viewpoint and describe the sustainability of the actual software product during its production phase with regards to the resource consumption (System production aspect) and the sustainability of using the software product, in terms of indirect impacts triggered by its usage \cite{penzenstadler_sustainability_2012}.\\ %more details: what does Sust mean IN...
+This categorization will be used in the following in order to describe and categorize existing contributions in the field of sustainable software engineering.
 
 
 \section{Related work in Sustainable Software Engineering} 
 %%% State of research - paragraph? 
 %more in-depth analysis if these details are correct?
-\paragraph{State of Research} The first considerations of Sustainability in combination with Software come from authors like Seacord et al. \cite{seacord_measuring_2003} or Tate \cite{tate_sustainable_2005} in the middle of the 2000s - but these authors mainly consider the Sustainability aspect of software in the context of software maintenance and how the longevity of software can be supported, instead of taking environmental and social impacts of Software into account \cite{albertao_measuring_2010}.\\ 
+\subsection{State of Research} The first considerations of Sustainability in combination with Software come from authors like Seacord et al. \cite{seacord_measuring_2003} or Tate \cite{tate_sustainable_2005} in the middle of the 2000s - but these authors mainly consider the Sustainability aspect of software in the context of software maintenance and how the longevity of software can be supported, instead of taking environmental and social impacts of Software into account \cite{albertao_measuring_2010}.\\ 
 %also some more details in tower of babel paper!!
 When the concept of Green IT became popular in the middle of the 2000s and more attention was drawn to the impacts that ICT has on environmental sustainability (\cite{berkhout_impacts_2001}, \cite{hilty_relevance_2006}), also the awareness for the role of software specifically grew and was accepted to be "worth a greater attention" \cite{capra_green_2009}.
 
@@ -94,7 +90,7 @@ The first aspect is the need for a unified definition of the concepts of sustain
 
 %2
 A second aspect that is often mentioned is a more concrete idea to tackle Sustainability considerations in Software Engineering: Many authors emphasize the need to integrate Sustainability as a software quality attribute by making it a Non-Functional Requirement (NFR) %abbrev???? %define what a NFR is??
- in official software engineering standards (\cite{penzenstadler_safety_2014}; \cite{amsel_toward_2011}). This step would account for the central role sustainability plays today \cite{penzenstadler_safety_2014} and help to integrate sustainability "early in the lifecycle of software development and influence design decisions" \cite{raturi_developing_2014}.\\
+ in official software engineering standards (\cite{penzenstadler_safety_2014}; \cite{amsel_toward_2011}; \cite{agarwal_sustainable_2012}). This step would account for the central role sustainability plays today \cite{penzenstadler_safety_2014} and help to integrate sustainability "early in the lifecycle of software development and influence design decisions" \cite{raturi_developing_2014}.\\
 According to \cite{penzenstadler_safety_2014} and \cite{venters_software_2014}, in order to make Sustainability a NFR, there is still a lot to do: there is for example a need for concrete methods to perform sustainability requirements analysis, existing policies and standards need to include sustainability aspects and %generic? / general / robust / widely usable? 
 assessment techniques and sustainability metrics need to be defined in order to enable sustainability assessment.\\
 Existing attempts at providing such methods and metrics will be presented in the next section. %oder rausnehmen?
@@ -107,32 +103,69 @@ Furthermore, the aspect of missing guidance for the efforts of including sustain
 To meet %or: satisfy??
  this demand, more and more contributions from the past five to six years aimed at providing concrete models and metrics to be used in the context of sustainable software engineering. The most relevant ones will be presented in the next section.
 
+%4 - !?
+% Issue: Awareness - of software developers (agarwal), of users (amsel) - and in general -> needs to be raised!!
+
 A quite recent contribution that tries to tackle the issue of missing guidance in the field is the \textit{Karlskrona Manifesto for Sustainable Design} \cite{karlskrona} from 2015. This Mainfesto presents "the fundamental principles underpinning design choices that affect sustainability" \cite{becker_sustainability_2015} 
 and with its creation, the authors aimed at finally providing "a common ground and a point of reference"\cite{becker_sustainability_2015} for the research community of sustainable software. With this, a first starting point is given to align efforts in the area of sustainable software engineering towards a common understanding.   
 
-\paragraph{An overview about existing approaches, models and metrics}%%% Overview of what is there - models etc? - TOMORROW!!!
+\subsection{Overview of existing contributions to Sustainable Software Engineering Practices}%%% Overview of what is there
+In the following, some existing approaches of different aspects of Sustainable Software Engineering are presented to give an overview about suggested practices the field. They are divided into approaches regarding sustainability metrics and measurement methods, approaches covering software life cycle and process models and approaches that specifically target requirements engineering aspects. %, and a some special approaches that tackle specific aspects. %mention best practices? or just add later?
 
-%general: classification of aspects like penzenstadler to give everything a bit more structure
-%does it fit here: combination of Green BY software and IN software? see a relation here?
+%metrics / measurement methods
+\paragraph{Sustainability metrics and measurement methods} A variety of contributions to sustainable software engineering focuses on methods and tools to measure energy consumption of software. %-> aspect software usage!
+One of the first tools introduced was \textit{GreenTracker}, which aims at making users aware of the impacts software has on environmental sustainability by tracking its energy consumption (based on CPU usage) \cite{amsel_toward_2011}. Another tool that also aims at raising awareness for power consumption by software, more specifically websites, is the \textit{Power Indicator} tool by Naumann et al. \cite{naumann_how_2008} - in detail, it depicts if the server of a website is run with renewable energy. %cite again??
+ Other approaches like \textit{PowerAPI} by Noureddine et al. \cite{noureddine_preliminary_2012} provide more comprehensive frameworks for measuring energy consumption. PowerAPI in particular enables the monitoring of energy consumption of an application during runtime, and has the specialty to also consider the impact different programming languages have on the power consumption \cite{noureddine_preliminary_2012}.\\
+Apart from these measurement tools, there also exist approaches that specifically introduce mathematical metrics dealing with energy consumption. Bozelli et al. \cite{}
+ have conducted a SLR that gives an overview about a variety of such metrics %....TODOOOOOO
+Some other examples that have a specific focus on energy \textit{efficiency} are provided by \cite{capra_is_2012} and \cite{johann_how_2012} - their metrics consider the relative energy consumption of applications (for example in relation to the "useful work done" \cite{johann_how_2012}), and in addition they do so on a very low level, which makes it possible to "find resource intensive parts of programs and improve them" \cite{johann_how_2012}. The described set-ups for testing each of the metrics are quite complex though, which indicates that there is still some work to do before these metrics can be applied in practice \cite{johann_how_2012}.\\
+Another interesting contribution in this area comes from Kern et al. \cite{kern_impacts_2015}, who propose a metric and the respective calculation method for the carbon footprint of a software project. It is a relatively new contribution to the field of sustainable software engineering and thus aims at finally providing a practical approach for measuring the environmental impact of software which can be integrated in a software development process \cite{kern_impacts_2015}. The basic idea is to calculate the respective current footprint of the development process of a software project or of the software product itself \cite{kern_impacts_2015}. The metric itself is expressed as kg CO\textsubscript{2} %does this work????
+per person month and is calculated based on rather fuzzy inputs like number of working days, number of employees, IT infrastructure and so on \cite{kern_impacts_2015}.\\
+Nearly all of the existing metrics and measurement methods focus exclusively on power and energy consumption and thus mainly target environmental sustainability. %also a bit economic as you have to pay for it :D
+%mention bell morse? or not? 
+Nevertheless, there have also been efforts to consider software impacts in relation with other dimensions of sustainability. The most prominent contribution in this area is the list of Sustainability properties and related metrics provided by Albertao et al. \cite{albertao_measuring_2010}. Based on existing measurements of software quality, which were evaluated with regards to their relevance for the different sustainability dimensions, eleven properties were derived that include aspects like Modifiability, Usability, Efficiency or the Project's Footprint \cite{albertao_measuring_2010}. Furthermore, this contribution proposes a sustainability measurement method which includes assessing the sustainability metrics after the release of a software in order to derive goals for improvement for the next development cycles, thus promoting continuous improvement \cite{albertao_measuring_2010}.
+%abschlusssatz - so, was ist da jetzt und was fehlt immer noch? - not much on estimation? albertao - late!?
 
-%lifecycle models
+%lifecycle models // process models
+\paragraph{Software life cycle, process and other software sustainability models}
+With regards to approaches that propose actual systematic%???? reference, structural? %what is "`model???"' - something missing here, "`what"' models?
+ models in the field of sustainable software, there is a great variety, spanning models for very specific purposes and application domains %see some input from SLR and other study?
+ to rather general reference models for sustainability aspects.\\
+Such a general model is for example proposed by Hilty et al. \cite{hilty_relevance_2006} with the purpose of assessing the high-level application fields where ICT can have an impact on environmental sustainability. Another model that addresses a quite different aspect is the Sustainability model by Penzenstadler and Femmer \cite{penzenstadler_generic_2013} - it is a reference model that allows to specify Sustainability goals and related values and activities from either a company or product specific point of view \cite{penzenstadler_generic_2013}. Thus, it facilitates the general analysis of sustainability aspects in different contexts, but also enables the definition of sustainability aspects in relation to a software product, for example.\\
+There is a certain type of systematic sustainability models that is targeted by many contributions for sustainable software: models with a focus on the Software Development Life cycle (SDLC) %Abkürzung??
+and general process models - as these models are very relevant in the field of Software Engineering in general. Most of these models concentrate on enhancing existing models, such as the waterfall model %cite??!?!
+for software development, with activities and best practices that improve the sustainability of the software development process itself in all its phases. Examples are the models by Agarwal et al. \cite{agarwal_sustainable_2012} and Shenoy and Eeratta \cite{shenoy_green_2011}, which include aspects like simply reducing resource usage like paper \cite{shenoy_green_2011}, but also consider activities like writing energy-efficiency code \cite{agarwal_sustainable_2012}. Furthermore, they emphasize the need to integrate Sustainability considerations in the requirements phase and to use respective measures to ensure sustainability and software quality (\cite{agarwal_sustainable_2012}; \cite{shenoy_green_2011}). The conceptual model for sustainable software systems engineering by Betz and Caporale \cite{betz_sustainable_2014} for example has a slightly different focus - it concentrates on integrating the engineering life cycle of software systems with the life cycle of Sustainable process engineering to emphasize the importance of both processes in order to tackle Sustainability issues \cite{betz_sustainable_2014}.
+%-> mention the scrum process model here, too!? 
 
-%process models
+
+%BUT a very often mentioned model since introduced -> GREEENSOFT
+% combines many aspects - life cycle model, process models, ... + additional input: preesnt
+%
+%
+
+%LATER: not now - Mahmoud / Ahmad!
+
 
 %RE!!!
-
-%metrics / measuring (mainly energy efficiency / consumption), assessment...
-
-% 
+\paragraph{}
 
 
-%%% present other areas? what is done there?!
-%requirements engineering
+(summing up...) -> overall: most on environmental sustainability! not much details about application in practice? (some are tested but not widely) + ... much measure afterwards? / generic?%??really?
+
+%special / other areas
+%\paragraph{} %%% present other areas? what is done there?!
 %architecture
 %design
 %quality assurance(?)
 %domain-specific frameworks
 %or here: eco-label
 %green SLA's
+%energy-aware programming?
 
 
+%summing up - what of that is used in practice???
+%\subsection{Adaption in practice}
+%refer to SLR and so on again - did I find any papers? no..
+%refer to Impacts paper - some nice arguemtns / cites
+%refer to Kern-Paper (when read) ...
+%later -> this as basis for SECOMO-practice argumentation
