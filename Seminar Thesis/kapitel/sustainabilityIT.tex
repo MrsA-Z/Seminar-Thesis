@@ -110,7 +110,8 @@ A quite recent contribution that tries to tackle the issue of missing guidance i
 and with its creation, the authors aimed at finally providing "a common ground and a point of reference"\cite{becker_sustainability_2015} for the research community of sustainable software. With this, a first starting point is given to align efforts in the area of sustainable software engineering towards a common understanding.   
 
 \subsection{Overview of existing contributions to Sustainable Software Engineering Practices}%%% Overview of what is there
-In the following, some existing approaches of different aspects of Sustainable Software Engineering are presented to give an overview about suggested practices the field. They are divided into approaches regarding sustainability metrics and measurement methods, approaches covering software life cycle and process models and approaches that specifically target requirements engineering aspects. %, and a some special approaches that tackle specific aspects. %mention best practices? or just add later?
+In the following, some existing approaches of different aspects of Sustainable Software Engineering are presented to give an overview about suggested practices the field. They are divided into approaches regarding sustainability metrics and measurement methods, approaches covering software life cycle and process models and approaches that specifically target requirements engineering (RE) %abkürzung!!!
+aspects. %, and a some special approaches that tackle specific aspects. %mention best practices? or just add later?
 
 %metrics / measurement methods
 \paragraph{Sustainability metrics and measurement methods} A variety of contributions to sustainable software engineering focuses on methods and tools to measure energy consumption of software. %-> aspect software usage!
@@ -137,20 +138,37 @@ and general process models - as these models are very relevant in the field of S
 for software development, with activities and best practices that improve the sustainability of the software development process itself in all its phases. Examples are the models by Agarwal et al. \cite{agarwal_sustainable_2012} and Shenoy and Eeratta \cite{shenoy_green_2011}, which include aspects like simply reducing resource usage like paper \cite{shenoy_green_2011}, but also consider activities like writing energy-efficiency code \cite{agarwal_sustainable_2012}. Furthermore, they emphasize the need to integrate Sustainability considerations in the requirements phase and to use respective measures to ensure sustainability and software quality (\cite{agarwal_sustainable_2012}; \cite{shenoy_green_2011}). The conceptual model for sustainable software systems engineering by Betz and Caporale \cite{betz_sustainable_2014} for example has a slightly different focus - it concentrates on integrating the engineering life cycle of software systems with the life cycle of Sustainable process engineering to emphasize the importance of both processes in order to tackle Sustainability issues \cite{betz_sustainable_2014}.
 %-> mention the scrum process model here, too!? 
 
+Besides all these mentioned approaches, there is one software sustainability model that seems to become more and more important in the research area, as it is highly referenced in many related contributions: \textit{GREENSOFT}\cite{naumann_greensoft_2011} by the research group GreenSoft at the Trier University of Applied Sciences. This "reference model for green and sustainable software and its engineering" \cite{naumann_greensoft_2011} is a comprehensive model that combines many aspects of sustainable software engineering %+ it comprises many previous contributions of this research group
+ and can be considered to be currently the best starting point for applying sustainable software engineering to practical projects: It consists of
+\begin{itemize}
+	\item a life cycle model of software products; this is used to assess the impact of the software during its different phases like development or usage; \cite{naumann_greensoft_2011}
+	\item a set of sustainability criteria and metrics, based on those proposed by Albertao et al. \cite{albertao_measuring_2010}; \cite{naumann_greensoft_2011}
+	\item different procedure models that specify in more details how sustainability can be integrated in the different phases of software engineering (like the development phase), but also related procedures like administration or purchase \cite{naumann_greensoft_2011}
+	\item and a collection of further recommendation for the different stakeholders; this includes suggestions of external sources for sustainable programming or the call for a general knowledge base for software sustainability best practices \cite{naumann_greensoft_2011}.
+\end{itemize} 
+Overall, this complex model aims at providing information on sustainable software, its engineering, use, administration and so on for different stakeholders and is thus a very important source in the research field. But nevertheless, it is not the perfect solution yet that directly enables to integrate sustainability in practical projects - the development procedure model for example concentrates on describing how to manage sustainability %cite from where?????
+ during the development process, %or just cite johann here??
+ but it does not specifically say how to realize it with the actual development. For this, the integration of other tools or approaches is needed that for example specify how to calculate certain sustainability metrics or that "allow estimation of energy consumption in [] early stages" \cite{naumann_greensoft_2011} %check if this cite is correct?!?!?!
+.
 
-%BUT a very often mentioned model since introduced -> GREEENSOFT
-% combines many aspects - life cycle model, process models, ... + additional input: preesnt
-%
-%
-
-%LATER: not now - Mahmoud / Ahmad!
+%LATER: not now - Mahmoud / Ahmad! or include before! -> is there some critic here???
 
 
 %RE!!!
-\paragraph{}
+\paragraph{Sustainability approaches suitable for requirements engineering}
+Recently, also the focus on approaches that integrate Sustainability aspects in the subfield of Requirements Engineering has intensified. %quelle dafür????  %mention that this is related to NFR calls etc?
+ The Sustainability reference model by \cite{penzenstadler_generic_2013} is a good example for an approach that is specifically targeted for this area - as the authors state, "[i]t is intended to serve as a reference model [...] for a requirements engineer" \cite{penzenstadler_generic_2013} %p.1
+. Further approaches in this area for example go into the direction of creating a "Sustainability Non-Functional Requirements Framework" \cite{raturi_developing_2014} that supports to formulate and classify sustainability requirements. %actung, zitat wörtlich?
+\\
+In addition to these directly related approaches, it is also possible to consider existing approaches from other areas for the field of RE. As mentioned before, for the promotion of Sustainability as NFR respective assessment models and metrics are needed: The proposed sustainability properties and related metrics by Albertao et al. \cite{albertao_measuring_2010} could for example be used here in order to assess sustainability in all its dimensions; if the focus is on environmental sustainability requirements only, also approaches like the carbon footprint calculation method by \cite{kern_impacts_2015} could be used.
 
+%MORE MORE MORE
+ 
 
-(summing up...) -> overall: most on environmental sustainability! not much details about application in practice? (some are tested but not widely) + ... much measure afterwards? / generic?%??really?
+In conclusion, this overview over some of the most important existing approaches in Sustainable Software Engineering shows that 
+%most on environmental sustainability! 
+% no "`complete"' model or method, metrics so lalala,, often only in late stages -> applied
+%not much details about application in practice? (some are tested but not widely) 
 
 %special / other areas
 %\paragraph{} %%% present other areas? what is done there?!
