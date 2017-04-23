@@ -7,9 +7,7 @@ A relatively new addition to the field of sustainable software engineering appro
 (SECoMo) Approach by Thomas Schulze %wie geht das bei Latex - nur Jahr erwähnen oder so? - oder welchen zitierstil soll ich nutzen?
 \cite{schulze_cost_2016}. This approach provides % wen? software engineers? theoretisch auch andere!
 Software Engineers with generic models and metrics necessary to estimate and express the ecological costs %(of the use of) 
-a software system causes when it is used \cite{schulze_cost_2016}. Thus, SECoMo represents a concrete %???
- estimation approach for the impact a software system has regarding ecological sustainability during its usage phase. %Maybe in contribution part -> this is new?! cause not much about "`estimation"' yet (true??)
-%--> or: at least categorize it according to Penzenstadler categories
+a software system causes when it is used \cite{schulze_cost_2016}. Thus, SECoMo represents a concrete estimation approach for the impact a software system has regarding ecological sustainability during its usage phase. 
 
 \subsection{What is SECoMo about?} %% BILD einfügen???
 %vllt 1, 2 direkte zitatie mit einbinden?
@@ -30,22 +28,21 @@ But SECoMo can also be used in the context of defining requirements for a softwa
 \subsection{How can SECoMo be integrated in a software engineering project?}
 %briefly: "`algorithmic"' estimation model? what does it consist of -metrics, (auxiliary models? -> how? not very specific?), & cost-drivers - other order?
 %HOW does it work? how to "use" SECoMo? to have a "`process"' - see evaluation chapter
-On a very high level, the SECoMo approach, when being used within a software engineering project in order to estimate the eco-costs, can be structured as follows:
-%What to you need to begin with? software needs to be designed at least to a certain level where information about the structure - what components / classes / data types? - and the behaviour & functionality of these components is available / already specified
-% best: with a modelling approach - SECoMo does not require a specific one, but these types of models should be available 
+On a very high level, the SECoMo approach, when being used within a software engineering project in order to estimate the eco-costs, can be structured as follows:\\
+In order to start with the SECoMo approach, the initial design phase of the software needs to be in a stage where it is already clear on some level how the software will be structured, which behavior it should follow and what functionalities it should provide. %What to you need to begin with? software needs to be designed at least to a certain level where information about the structure - what components / classes / data types? - and the behaviour & functionality of these components is available / already specified
+ Ideally, this is reached by using a modeling approach that creates a structural, behavioral and functional view on the modeled software. SECoMo does not require a specific modeling approach that needs to be used to create these views, but these model types are the basis for the further steps of using SECoMo as estimation technique \cite{schulze_cost_2016}.\\
+If this basis is given, the following steps of the SECoMo approach can be integrated already in the earliest stages of a software development process (if early eco-cost estimations are required), otherwise also in later iterations of the process to refine the initial estimates or to calculate the actual eco-cost values (for example in the testing phase):
 \begin{enumerate}
-	\item calibrate the models %and resource factors?! -> to implicitly cover these implementation related things.. somehow
-	so that the information about the hardware aspects is accurate and relates to a given situation %???
-	\item prepare the auxiliary models so that they include all information available (or that can be derived, like frequency on the advanced level)
-	%e.g. information needed about frequency - of operation, or how often data type is used in memory / persistent?!
-	\item calculate the estimates for the different eco-cost metrics based on the available information %-> so, which level of detail?
-	and the specified parameter values identifying 
+	\item Calibration of the models, in order to receive accurate values concerning the hardware energy consumption factors (resource factors) that are later needed as inputs to the mathematical models \cite{schulze_cost_2016}; %and resource factors?! -> to implicitly cover these implementation % related things.. somehow
+	%so that the information about the hardware aspects is accurate and relates to a given situation %???
+	\item Preparation of the auxiliary models so that they include all information available regarding the relevant eco-cost drivers (on the intermediate and advanced level certain information can be derived using Markov Models) \cite{schulze_cost_2016}; %e.g. information needed about frequency - of operation, or how often data type is used in memory / persistent?!
+	\item And finally Calculation of the estimates for the different eco-cost metrics based on the available information %-> so, which level of detail?
+	and the specified parameter values, which identify aspects like user type or case \cite{schulze_cost_2016}.
 \end{enumerate}
-%THEN -> derive specific reports etc. for certain stakeholders or communicate via auxiliary models
+Based on the estimated or calculated eco-costs it is also possible to derive specific reports on the environmental impact of the software for different types of stakeholders, or to simply communicate the eco-costs via the existing auxiliary models \cite{schulze_cost_2016}. This way, it is possible for stakeholders to make informed decisions on the software design taking the eco-cost information into account, and especially doing so at an early level \cite{schulze_cost_2016}.
 % e.g. make decisions, like - oh this data type causes a lot of eco-costs - could be the size of ceratin attributes
 % or this scenario is highly (consumative?!) -> we should just decide not to allow certain combinations of actions to be possible
 
-%limitations?! -> or rather in the contribution part?!
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %improve wording, e.g. - not "provide" and "support", "help", but better synonyms!

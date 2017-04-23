@@ -29,6 +29,7 @@ Green IT is related to first- and second-order effects of ICT, but as a strategi
 Even though ICT products consist not only of hardware artifacts but also software artifacts, the main focus of Green In IT is usually on improving the sustainability of ICT hardware, %see notes for some references here!!
 and often Green By IT approaches also do not take the impacts of software artifacts fully into account. %reference??
 
+\subsection{Sustainability and Software}
 %%% Special focus: Software - how to use software in this 
 But software artifacts actually play an equally important role in the relationship of ICT and Sustainability: %These!
 Although, at the first glance, it may seem that software as the immaterial % check with paper - reference? for example hilty11
@@ -117,9 +118,10 @@ aspects. %, and a some special approaches that tackle specific aspects. %mention
 \paragraph{Sustainability metrics and measurement methods} A variety of contributions to sustainable software engineering focuses on methods and tools to measure energy consumption of software. %-> aspect software usage!
 One of the first tools introduced was \textit{GreenTracker}, which aims at making users aware of the impacts software has on environmental sustainability by tracking its energy consumption (based on CPU usage) \cite{amsel_toward_2011}. Another tool that also aims at raising awareness for power consumption by software, more specifically websites, is the \textit{Power Indicator} tool by Naumann et al. \cite{naumann_how_2008} - in detail, it depicts if the server of a website is run with renewable energy. %cite again??
  Other approaches like \textit{PowerAPI} by Noureddine et al. \cite{noureddine_preliminary_2012} provide more comprehensive frameworks for measuring energy consumption. PowerAPI in particular enables the monitoring of energy consumption of an application during runtime, and has the specialty to also consider the impact different programming languages have on the power consumption \cite{noureddine_preliminary_2012}.\\
-Apart from these measurement tools, there also exist approaches that specifically introduce mathematical metrics dealing with energy consumption. Bozelli et al. \cite{}
- have conducted a SLR that gives an overview about a variety of such metrics %....TODOOOOOO
-Some other examples that have a specific focus on energy \textit{efficiency} are provided by \cite{capra_is_2012} and \cite{johann_how_2012} - their metrics consider the relative energy consumption of applications (for example in relation to the "useful work done" \cite{johann_how_2012}), and in addition they do so on a very low level, which makes it possible to "find resource intensive parts of programs and improve them" \cite{johann_how_2012}. The described set-ups for testing each of the metrics are quite complex though, which indicates that there is still some work to do before these metrics can be applied in practice \cite{johann_how_2012}.\\
+Apart from these measurement tools, there also exist approaches that specifically introduce mathematical metrics dealing with energy consumption. %Bozelli et al. \cite{}
+ %have conducted a SLR that gives an overview about a variety of such metrics %....TODOOOOOO
+Some %other
+ examples that have a specific focus on energy \textit{efficiency} are provided by \cite{capra_is_2012} and \cite{johann_how_2012} - their metrics consider the relative energy consumption of applications (for example in relation to the "useful work done" \cite{johann_how_2012}), and in addition they do so on a very low level, which makes it possible to "find resource intensive parts of programs and improve them" \cite{johann_how_2012}. The described set-ups for testing each of the metrics are quite complex though, which indicates that there is still some work to do before these metrics can be applied in practice \cite{johann_how_2012}.\\
 Another interesting contribution in this area comes from Kern et al. \cite{kern_impacts_2015}, who propose a metric and the respective calculation method for the carbon footprint of a software project. It is a relatively new contribution to the field of sustainable software engineering and thus aims at finally providing a practical approach for measuring the environmental impact of software which can be integrated in a software development process \cite{kern_impacts_2015}. The basic idea is to calculate the respective current footprint of the development process of a software project or of the software product itself \cite{kern_impacts_2015}. The metric itself is expressed as kg CO\textsubscript{2} %does this work????
 per person month and is calculated based on rather fuzzy inputs like number of working days, number of employees, IT infrastructure and so on \cite{kern_impacts_2015}.\\
 Nearly all of the existing metrics and measurement methods focus exclusively on power and energy consumption and thus mainly target environmental sustainability. %also a bit economic as you have to pay for it :D
@@ -164,8 +166,8 @@ In addition to these directly related approaches, it is also possible to conside
 
 %MORE MORE MORE
  
-
-In conclusion, this overview over some of the most important existing approaches in Sustainable Software Engineering shows that 
+%TODO - Later
+%In conclusion, this overview over some of the most important existing approaches in Sustainable Software Engineering shows 
 %most on environmental sustainability! 
 % no "`complete"' model or method, metrics so lalala,, often only in late stages -> applied
 %not much details about application in practice? (some are tested but not widely) 
@@ -187,3 +189,7 @@ In conclusion, this overview over some of the most important existing approaches
 %refer to Impacts paper - some nice arguemtns / cites
 %refer to Kern-Paper (when read) ...
 %later -> this as basis for SECOMO-practice argumentation
+
+%\section{Why sustainable software engineering is not yet used in practice(?!)} %see results of SLR?! + paper of Eva Kern
+% of existing models / methods / metrics:
+% critique - what is missing? - not used in practice?! (quellen?!) - why?
