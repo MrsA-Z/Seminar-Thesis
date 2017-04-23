@@ -6,10 +6,10 @@ The ICT sector has a major influence on the way economies and societies work, co
  On the other hand it also has a great potential to have positive impacts on Sustainability, by supporting efforts to reduce the energy consumption of its own products for example, but also as an enabler to achieve energy efficiencies in other sectors \cite{smart2020}. % the smart 2020 report (cite?) outlines.. for example different ways (-> see the smart..) p. 9
 %describe hardware efforts etc. shortly, idea behing it -> e.g. improving hardware components - or data centers of a company.. or or or -> many papers on that!? % see some papers used for Lund paper?! -> Green IT maturity, strategic aspect etc.
 
-The energy consumption of hardware is one of the main direct impacts ICT has on sustainability, and while these direct impacts are often quite clear, indirectly caused effects of ICT (like the ability to enable improvements in other industries) are often overlooked, even though they can have even greater impacts in the long run. In order to better illustrate the relationship between ICT and Sustainability, a more fine-grained differentiation of the effects of ICT is often used in the literature (for example by \cite{hilty_relevance_2006} or \cite{naumann_greensoft_2011}) which distinguishes between three types: First-order effects, second-order effects and third-order effects. %todo: \cite{} - correct origin paper - talk about origin? first introduced by... berkhout and Hertin -> ONLY environmental dimension? or just mainly?
+The energy consumption of hardware is one of the main direct impacts ICT has on sustainability, and while these direct impacts are often quite clear, indirectly caused effects of ICT (like the ability to enable improvements in other industries) are often overlooked, even though they can have even greater impacts in the long run. In order to better illustrate the relationship between ICT and Sustainability, a more fine-grained differentiation of the effects of ICT is often used in the literature (for example by \cite{hilty_relevance_2006} or \cite{naumann_greensoft_2011}) which distinguishes between three types: First-order effects, second-order effects and third-order effects \cite{berkhout_impacts_2001}. %todo: \cite{} - correct origin paper - talk about origin? first introduced by... berkhout and Hertin -> ONLY environmental dimension? or just mainly?
 %EFFECTS?? (hilty) or IMPACTS?? (greensoft)
 %%more later, see notes->
-While first-order effects refer to direct impacts "of the physical existence of ICT" \cite{hilty_relevance_2006}, like resource consumption during the production or usage phase of hardware, second-order effects describe rather indirect effects that are caused by using ICT, like the optimization of processes which might lead to resource conservation \cite{naumann_greensoft_2011}. The third-order effects refer to impacts observable on a long-term scale, like the "adaptation of behaviour (e.g. consumption patterns) or economic structures" \cite{hilty_relevance_2006} which themselves lead to certain impacts on different aspects of Sustainability.  %-> rebound theory?! (also something in the greensoft paper)
+While first-order effects refer to direct impacts "of the physical existence of ICT" \cite{hilty_relevance_2006}, like resource consumption during the production or usage phase of hardware, second-order effects describe rather indirect effects that are caused by using ICT, like the optimization of processes which might lead to resource conservation \cite{naumann_greensoft_2011}. The third-order effects refer to impacts observable on a long-term scale, like the "adaptation of behaviour (e.g. consumption patterns) or economic structures" \cite{hilty_relevance_2006} which themselves lead to certain impacts on different aspects of Sustainability.  %-> rebound theory?! (also something in the greensoft paper) or from the original paper
 %mention some more examples? - later
 
 
@@ -35,18 +35,13 @@ Although, at the first glance, it may seem that software as the immaterial % che
 part of the ICT products does not have an impact on Sustainability, especially environmental sustainability, it is easy to show that this naive assumption is wrong. %refer to lund paper & the ideas
 %go back - naiive idea - does software even have an impact? -> Yes! relate back to impacts introduction before  - name some direct?!?! during creation for example? probably disposal?
 % butmainly indirect impacts 2nd and 3rd  order! (see Lund paper here: reuse some stuff?)
-During its usage phase, it is true that the software does not directly consume energy - but (something about the software influences HOW hardware products consume energy!) %find this citation again!! in my notes..
+During its usage phase, it is true that the software does not directly consume energy - but if software is regarded as "the ultimate cause of hardware requirements and energy consumption" \cite{kern_impacts_2015}, it becomes clear that it is after all indirectly influencing impacts on Sustainability and thus needs to be taken into account as an equally important aspect.\\
 Other examples for indirect impacts are.. 
 %blabla.. describe some examples of impacts to give an idea (see Lund paper?)  why is sustainable software important? and how to observe that -> see Amsel / Argawal! 
 
 Overall, software thus has direct and indirect impacts on Sustainability just like ICT in general, either as the producer / consumer itself or as enabler for other aspects. %???
  Accordingly, it is clear that also for the ICT sub field of software engineering %definition?? maybe this IEEE glossary?)
- there is a need for dealing with topics concerning Sustainability. But so far, Sustainability considerations are not a part of "traditional software engineering"'%cite?? penzenstadler, what? see notes?
- methods. %where to put??
-%A first step of integrating Sustainability into traditional software engineering would be to introduce it as a new Nonfunctional Requirement, as suggested by various authors %name them
-% who said that again? amsel oder argawal?) -> and penzenstadler -> safety security etc -> but not yet %(is that correct????) 
-%define what a NFR is??
- This is critized by a growing number of authors %name some!!
+ there is a need for dealing with topics concerning Sustainability. But so far, Sustainability considerations are not a part of "traditional software engineering" \cite{penzenstadler_supporting_2012} methods.  This is critized by a growing number of authors %name some!! penzenstadler, amsel oder alberato?
 , as the awareness for the importance of Sustainability in Software Engineering grows, and the emerging field of \textit{Sustainable} or \textit{Green Software Engineering}\footnote{In the following, the term \textit{Sustainable Software Engineering} will be used, as it comprises the aspect of environmental (green) aspects as well as social and economic aspects, which are equally important parts of Sustainability considerations, even though environmental aspects are the majority.} aims at filling this gap by %blabla, creating 
 working on approaches and methods that deal with sustainable software and its engineering.
 %so -> this is the task of the field of sustainable software engineering! -> (how to develop sustainable software and how to develop it in a sustainable way)
@@ -54,45 +49,79 @@ working on approaches and methods that deal with sustainable software and its en
 Returning to the question of how ICT can be in the service of Sustainability, Sustainable Software Engineering constitutes another important approach that should be added to the list.  
 %which impacts does it tackle? .. as it relates to first- and second-order impacts of especially Software on Sustainability!
 
-In the literature, there does not yet exist one common definition of Sustainable Software and Sustainable Software Engineering %cite someone??!?
-. This is a result of the early stage of the research field and the fact that different perspectives exists from which these definitions are created. %%reference some of the literature!!!
-Many authors have taken up the challenge % klingt so dramatisch, was anderes!!
-to identify the one common understanding of Sustainability in Software Engineering, but they all come to the conclusion.. %see tower of babel, green in SE and so on
- Nevertheless, for the purpose of this paper we %???
-chose the definition by Dick et al. \cite{dick_model_2010} %find correct citation!!!
-for Sustainable Software, as it best relates to the three dimensions of Sustainability: %name them?  % e.g. instead of others like amsel
-\begin{citation}
+In the literature, there does not yet exist one common definition of Sustainable Software and Sustainable Software Engineering \cite{venters_software_2014}. This is a result of the early stage of the research field, the complex nature of the concept of sustainability and software and the fact that different perspectives exists from which these definitions are created \cite{venters_software_2014}. Nevertheless, for the purpose of this paper the mentioned concepts need to be defined, so we %???
+chose the definition by Dick et al. \cite{dick_model_2010} for Sustainable Software, as it best relates to the three dimensions of Sustainability: %name them?  % e.g. instead of others like amsel
+\begin{quote}
 	"Sustainable Software is software whose direct and indirect negative impacts on economy, society, human beings, and the environment resulting from development, deployment, and usage of the software is minimal and/or has a positive effect on sustainable development" \cite{dick_model_2010}
-\end{citation}
-Accordingly, Sustainable Software Engineering is understood as the systematics methodology to develop such Sustainable Software. It is defined by Naumann et al. as
-\begin{citation}
+\end{quote}
+Accordingly, Sustainable Software Engineering can be understood as the systematic methodology to develop such Sustainable Software. It is defined by Naumann et al. as
+\begin{quote}
 " [...] Sustainable Software Engineering is the art of developing [...] sustainable software with a [...] sustainable software engineering process. Therefore, it is the art of defining and developing software products in a way, so that the negative and positive impacts on sustainable development that result [...] from the software product over its whole life cycle are continuously assessed, documented, and used for a further optimization of the software product" \cite{naumann_greensoft_2011} %p. 3
-\end{citation}
-
+\end{quote}
 %mention: nice: focus on whole lifecycle -> as already seen with Green IT!
 
+%hier oder anderswo: kategorisierung von penzenstadler development / maintenance process etc. einbinden
 %abschluss ???
 
 
-\section{Related work in Sustainable Software Engineering} %Development?
-%%% State of research - paragraph?
+\section{Related work in Sustainable Software Engineering} 
+%%% State of research - paragraph? 
+%more in-depth analysis if these details are correct?
+\paragraph{State of Research} The first considerations of Sustainability in combination with Software come from authors like Seacord et al. \cite{seacord_measuring_2003} or Tate \cite{tate_sustainable_2005} in the middle of the 2000s - but these authors mainly consider the Sustainability aspect of software in the context of software maintenance and how the longevity of software can be supported, instead of taking environmental and social impacts of Software into account \cite{albertao_measuring_2010}.\\ 
+%also some more details in tower of babel paper!!
+When the concept of Green IT became popular in the middle of the 2000s and more attention was drawn to the impacts that ICT has on environmental sustainability (\cite{berkhout_impacts_2001}, \cite{hilty_relevance_2006}), also the awareness for the role of software specifically grew and was accepted to be "worth a greater attention" \cite{capra_green_2009}.
 
-%start with original considerations, eg. Tate / Seacorde (as mentioned by Albertao) - and the critics, e.g. Penzenstadler - it is no NFR, not integrated in standard SE practices!
+But as indicated before, neither environmental Sustainability nor Sustainability in general is actually an aspect that is integrated in traditional software engineering approaches and concrete guidance on how to support it in this field was missing, according to \cite{penzenstadler_supporting_2012}. Consequently, there is/was %???
+ a need for the definition of Sustainable Software, guidelines and approaches how to develop and use it and metrics and measurement methods in order to measure its impact.
+%- and the critics, e.g. Penzenstadler - it is no NFR, not integrated in standard SE practices!
 
-% include results of SLR & mapping study - what is there
-%many discussions about -> definitions -> e.g. modern tower of babel / green in se / etc. (here or somewhere else?) like before I have the actual definition?
-% say that in the recent years more contributions came (short overview in which directions - or already above?) - but also according to studies - what is missing?
+According to a Systematic Literature Review (SLR) %Abkürzung?!
+ conducted by Penzenstadler et al. \cite{penzenstadler_sustainability_2012} in 2012, the research activity in the field of sustainable software engineering has mainly started in the beginning of the 2010s and has significantly increased since then. This is also underlined by the follow-up study from 2014 \cite{penzenstadler_systematic_2014}, which identified around 40 relevant publications that were added%???
+ in the time between the two studies.\\
+The main insights provided by these two studies can be summarized as follows: while there are many contributions over the last years that have to do with software and sustainability in some way, most research still goes into "domain-specific, constructive approaches" \cite{penzenstadler_sustainability_2012} and general reference approaches that can be applied to the whole domain of sustainable software engineering are missing \cite{penzenstadler_sustainability_2012}. The study from 2014 identified already more contributions that focused on general aspects in the areas of Software Engineering Processes and Software Design \cite{penzenstadler_systematic_2014}, but identified that most application domains covered by the contributions are still concerning fields not directly connected to Software Engineering (for example Business and Economics, Nature and Agriculture, Mechanics and Manufacturing \cite{penzenstadler_systematic_2014}). %This shows that the required \textit{guidance} in the field is still not 
+ Moreover, both studies identified a lack of case studies and experience reports about applications of proposed approaches and methods in practice \cite{penzenstadler_sustainability_2012}, which shows that the research field is still mostly shaped by academia and the practical view is missing %actual citation??
+\cite{penzenstadler_systematic_2014}. %this becomes relevant later again, maybe in contribution: not much known on / not much evaluation - "`establishment in practice"' \14er-Study -> there is a lot to do
+%hope: what worked for green it ... might work for that, too! (see 14er study)
 
-% constant convern - definitions not always clear, concepts?! 
-% finish with: mention Karlskrona manifesto - aiming at providing common ground etc. -> summarize
+Overall, there are certain aspects in the current research that stand out because they are targeted by many authors:\\
+%1
+The first aspect is the need for a unified definition of the concepts of sustainable software %software sustainability?
+ and the role of sustainability in software Engineering. Many authors have taken on the task to identify the one common understanding of Sustainability in Software Engineering and to extract a unified definition (\cite{venters_software_2014};%tower of babel
+ \cite{becker_sustainability_2015}%karlskrona manifesto ??? keep?
+; \cite{calero_green_2015} ; \cite{penzenstadler_what_13}), but they all come to the conclusion that despite the variety of attempts, there does not exist one commonly accepted definition yet. According to \cite{venters_software_2014} for example, many attempts are often too vague or not broad enough, and due to the complex nature of the concept of software sustainability, all attempts into account slightly divergent perspectives. %name examples? e.g. only environmental sustainability, the old tate/seacord ones, or penzenstadler with her "`3 aspects"' and 5 dimensions? - some relate it to the development process directly (like amsel) some only focus on what sustainable software is
+ The criticality %??
+ of this "lack of [a] common understanding of the fundamental concepts of sustainability" \cite{becker_sustainability_2015} in the context of software and software engineering is underlined by Venters et al. \cite{venters_software_2014}, who state that until a commonly accepted definition is established, most efforts in the field will be likely to "remain insular and isolated" \cite{venters_software_2014}. %issue.. get back to somewhere??? :/ 
 
-%%% Overview of what is there - models etc? - TOMORROW!!!
+%2
+A second aspect that is often mentioned is a more concrete idea to tackle Sustainability considerations in Software Engineering: Many authors emphasize the need to integrate Sustainability as a software quality attribute by making it a Non-Functional Requirement (NFR) %abbrev???? %define what a NFR is??
+ in official software engineering standards (\cite{penzenstadler_safety_2014}; \cite{amsel_toward_2011}). This step would account for the central role sustainability plays today \cite{penzenstadler_safety_2014} and help to integrate sustainability "early in the lifecycle of software development and influence design decisions" \cite{raturi_developing_2014}.\\
+According to \cite{penzenstadler_safety_2014} and \cite{venters_software_2014}, in order to make Sustainability a NFR, there is still a lot to do: there is for example a need for concrete methods to perform sustainability requirements analysis, existing policies and standards need to include sustainability aspects and %generic? / general / robust / widely usable? 
+assessment techniques and sustainability metrics need to be defined in order to enable sustainability assessment.\\
+Existing attempts at providing such methods and metrics will be presented in the next section. %oder rausnehmen?
+
+%3
+Furthermore, the aspect of missing guidance for the efforts of including sustainability in software engineering is often addressed in the existing literature, as mentioned before. %cite sth again?
+ This is observable in the concerns brought forward that especially generic reference models and measurement methods are missing that can be applied to the whole field, as identified for example by \cite{penzenstadler_sustainability_2012}: "An encompassing reference framework for SE is still missing". %p.6. %even though GREENSOFT was already there & known????
+ In addition, the need for concrete, unified metrics that enable to measure the actual impact of software on sustainability is also evident %cite someone????.
+.\\
+To meet %or: satisfy??
+ this demand, more and more contributions from the past five to six years aimed at providing concrete models and metrics to be used in the context of sustainable software engineering. The most relevant ones will be presented in the next section.
+
+A quite recent contribution that tries to tackle the issue of missing guidance in the field is the \textit{Karlskrona Manifesto for Sustainable Design} \cite{karlskrona} from 2015. This Mainfesto presents "the fundamental principles underpinning design choices that affect sustainability" \cite{becker_sustainability_2015} 
+and with its creation, the authors aimed at finally providing "a common ground and a point of reference"\cite{becker_sustainability_2015} for the research community of sustainable software. With this, a first starting point is given to align efforts in the area of sustainable software engineering towards a common understanding.   
+
+\paragraph{An overview about existing approaches, models and metrics}%%% Overview of what is there - models etc? - TOMORROW!!!
+
 %general: classification of aspects like penzenstadler to give everything a bit more structure
 %does it fit here: combination of Green BY software and IN software? see a relation here?
 
 %lifecycle models
 
-%metrics / measuring (mainly energy efficiency / consumption)
+%process models
+
+%RE!!!
+
+%metrics / measuring (mainly energy efficiency / consumption), assessment...
 
 % 
 
