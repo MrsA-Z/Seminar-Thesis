@@ -18,23 +18,38 @@ The next sections deal with the question what SECoMo can contribute to the diffe
 %REMINDER: SECoMo represents a concrete estimation approach for the impact a software system has regarding ecological sustainability during its usage phase. 
 
 \paragraph{SECoMo and Sustainability Metrics}
-% with metrics / AS metrics
+Like the majority of the presented sustainability metrics %in chapter xy - querverweis
+in this paper, SECoMo also focuses entirely on environmental aspects of Sustainability, the ecological costs of software in particular. The eco-cost metrics that are part of SECoMo range from a very fine-grained level (for example the ecological costs of the execution of one single operation \cite{schulze_cost_2016}) to a rather broad scope (for example the ecological costs of a concrete execution scenario of the software operations \cite{schulze_cost_2016}), and are thus suitable for a variety of different purposes for which eco-costs are regarded. Most of the presented metrics and measurements are only usable in a specific context (like \cite{naumann_how_2008} or \cite{capra_is_2012}).\\ %no tool, needs to be adapted and done in a software dev process 
+What the SECoMo metrics do not provide are information about energy efficiency (like the metrics defined by \cite{capra_is_2012} and \cite{johann_how_2012}), and as they are estimated or calculated without information about the concrete implementation, they can not directly be used to identify resource intense coding parts like those two metrics can - but the SECoMo metrics can give even more useful insights, as they can be calculated before any implementation is even considered and still give information which parts of the software might be very resource intense (for example the execution of a certain operation, or updating a certain data type \cite{schulze_cost_2016}).\\
+The goal and motivation of SECoMo actually resembles those of the presented carbon footprint calculation method by Kern et al. \cite{kern_impacts_2015}: they share the motivation of providing a concrete method to calculate the environmental impact of a software product, that can be integrated in software development processes in a reasonable way %and thus finally be used in practice??
+(\cite{kern_impacts_2015}; \cite{schulze_cost_2016}). Moreover, the authors mention in their motivation the need for creating awareness and transparency for the aspect of software energy consumption \cite{kern_impacts_2015} (which SECoMo aims at, too, mainly with regards to the stakeholders \cite{schulze_cost_2016}). Finally, the Kern et al. emphasize that the benefit of their method lies in its ability to finally integrate sustainability aspects early in the software development and design process %direct citation????
+\cite{kern_impacts_2015} - which is one of the main benefits of SECoMo, too \cite{schulze_cost_2016}.\\ %add as "`late changes are more expensive"' citation from kern-paper here later
+The differences between the two approaches however are also clear: While the Carbon Footprint metric by Kern et al. has a fixed unit (kg CO2 per person month \cite{kern_impacts_2015}) and is thus restricted to a certain context, the SECoMo metrics can vary in the units they represent in the context of eco-costs (for example CO2 %%%%%%%
+ emissions, but also dollars \cite{schulze_cost_2016}) and are thus far more flexible. Furthermore, they can adapt to many different contexts due to the variety of aspects from different dimensions they can cover \cite{schulze_cost_2016}, and they are not restricted to the high-level inputs the Carbon Footprint metric requires \cite{kern_impacts_2015}, but can be way more fine-grained \cite{schulze_cost_2016}. The only aspect where SECoMo is more restricted that the Carbon Footprint calculation method is the scope: while the latter method can calculate the footprint of the software product itself and in addition the footprint of the development process, too \cite{kern_impacts_2015}, SECoMo only applies to the eco-costs caused by the software product itself \cite{schulze_cost_2016}. %but as software usage most important -> that's ok
+%++++++ compare with albertao metrics!!!!
 
-%Maybe in contribution part -> this is new?! cause not much about "`estimation"' yet (true??)
+Overall, these differentiation aspects underline the general benefits of the SECoMo eco-cost metrics in relation to existing sustainability metrics: they are more flexible and can be applied for different contexts and are  thus more adaptive and they allow an early understanding of causes for inefficient energy consumption of a software product, as early as in the design phase. %and most importantly, they represent metrics that do not need to be exactly cal estimations! which none of the other metrics covers??? %check: is that true?
+%or only in models part?!
 
-\paragraph{SECoMo in SDLC(?) models}
-%REFER back to the part how to generally include it? or move it here?
-% Find / create some ideas - where to integrate it in some models
-% - in lifecycle models
+\paragraph{SECoMo in sustainability models}
+As outlined in the previous section, SECoMo can be integrated into traditional software engineering %or development -> Fußnote = hier irgendwie das gleiche!?
+processes by adding the estimation or calculation steps in the design phase, but also later phases. Thus, it is clear that it should also be possible to integrate SECoMo into sustainable software engineering processes and SDLC models that are enhanced with sustainability activities (like the ones proposed by \cite{agarwal_sustainable_2012} and \cite{shenoy_green_2011}), if those are adapted to the steps of SECoMo.\\
+% Find / create some ideas - where to integrate it in some models - MORE?
+A very interesting question is whether it makes sense to \textit{add} SECoMo to the GREENSOFT model. As GREENSOFT is a reference model that comprises a variety of approaches \cite{naumann_greensoft_2011}, SECoMo can not simply be integrated \textit{into} the model, but it needs to be considered at which level it makes most sense. The general concept of eco-costs in SECoMo relates to the first level of GREENSOFT, with the life cycle model that is used to assess the impacts of the software in different phases \cite{naumann_greensoft_2011} - the eco-costs are impacts that occur during the usage phase. With regards to the second level, the Sustainability Criteria and Metrics included in GREENSOFT could be extended by adding SECoMo's eco-cost metrics as part of the environmental metrics. But where SECoMo actually fits best is the third level of GREENSOFT, the procedure models \cite{naumann_greensoft_2011}: For the development procedure model, so far there only exists a process model which suggests ways to manage sustainability during the development process %as mentioned?! check source again here, too!
+as mentioned. What is missing is a concrete method how to include the measurement of Sustainability aspects in this development procedure, and as the authors note themselves, additional aspects like for example early estimations of the energy consumptions may enhance their proposed model \cite{naumann_greensoft_2011} %p.7
+- SECoMo thus is the perfect addition to the development procedure model of GREENSOFT, especially because it enables estimations at such an early stage like the design phase which makes resulting changes way cheaper \cite{schulze_cost_2016}.
 
-%here: earlier = cheaper aspect + where mentioned? in impacts paper!
+So overall, SECoMo is a suitable method that could be added to the GREENSOFT model, as it enhances it by providing a concrete approach not only to measure sustainability metrics (here: eco-costs), but also to estimate these eco-costs early, before even the first deployable software is available. With this unique quality the SECoMo approach can also contribute to Sustainable Software Engineering practices in general. %why??? %first approach that includes ESTIMATION -> true?
+ In addition, the SECoMo approach is likely to be applied in practical projects due to its clear structure and the high adaptability, and thus might help to finally trigger the general adoption of sustainable software engineering models in practice.
+%aufgreifen in limitations - of course it is not said that this is the reason why sust se approaches might become more adapted in practice - but it at least is a concrete starting point - limitations _> needs to be seen if if is well-rounded enough
 
 
-\paragraph{SECoMo and Requirements Engineering}
-%in relation with requirement topics?! -> later!!
+\paragraph{SECoMo and Requirements Engineering for Sustainability}
+With regards to Requirements Engineering, SECoMo does not provide an RE approach per se - but it certainly enables the integration of environmental sustainability aspects in this field, if appropriate elements from the SECoMo approach are used: The existing eco-cost metrics provided by SECoMo are ideal in order to be used as basis to formulate environmental requirements a software must fulfill and to fix required thresholds \cite{schulze_cost_2016}. Moreover, the auxiliary models created during the SECoMo process can be used in order to define eco-cost requirements and in order to communicate them to stakeholders \cite{schulze_cost_2016}.\\
+The actual estimations or calculations derived from the mathematical models of SECoMo on the other hand are adequate assessment measures to check if the defined requirements are fulfilled. This way, SECoMo offers concrete solutions to some of the issues that are present for Sustainability as a (non-functional) requirement (lack of assessment methods for example, as mentioned by \cite{penzenstadler_safety_2014}).
 
-% + is also very nice for the problem of NFR -> ?! see chapter again
-
+In conclusion, SECoMo enhances RE approaches in the context of Sustainability with a vocabulary / models to define and communicate requirements and a also a suitable way to assess them.
+%in relation with further requirement topics?! -> later!!
 
 
 %%% Further aspects
@@ -42,13 +57,18 @@ The next sections deal with the question what SECoMo can contribute to the diffe
 % !!! Integrate with GREEN-IT readiness / maturity models!?
 
 
-\subsection{Limitations}
-% of secomo - what it still does not contribute - social sust. (more a process related aspect?)
-%+ in general: social sust. -> still not much work done in general (see paper Hinai & CHit..) -> and also from my list -> most focus on environmental sustainability, so more an issue in the field? 
+\subsection{Limitations} %also in a different dimension? of my paper? add at the end
+Even though the SECoMo approach offers many new aspects to the field of sustainable software engineering and can enhance certain approaches in a positive way, there are a few limitations to the benefit of SECoMo for sustainable software engineering:\\ %ist nicht das allheilmittel!!!
+ SECoMo is an approach that focuses on the estimation and calculation of software eco-costs. With that, it has a clear focus on environmental sustainability and is thus also mainly enhancing the field of Sustainable Software Engineering in terms of this dimension. In a way, it also refers to economic sustainability, to the extend that it comprises for example considerations like the high costs of changes to a software product during late phases of the development process, or the possibility to express eco-costs in a monetary unit \cite{schulze_cost_2016}. %holprig!!!
+ But to be considered an approach that supports sustainability in a comprehensive way, some kind of social sustainability component would be necessary. %refer to the definition of sustainable software ?! not only "`green"'?
+This limitation however is qualified %??? relativiert?
+ by the fact that most approaches that are considered to belong to the field of sustainable software engineering actually focus on environmental sustainability, thus SECoMo is not an exception.\\
+%ALTHOUGH+ in general: social sust. -> still not much work done in general (see paper Hinai & CHit..) -> and also from my list -> most focus on environmental sustainability, so more an issue in the field? 
+Another critical aspect is the assumption that SECoMo can have a major impact on the readiness for sustainable software engineering approaches to be adapted in practical projects - this is only an assumption based on the concrete nature of the approach itself and the fact that it allows to be used even with only a small amount of input information available \cite{schulze_cost_2016}, which reduces the obstacles for a practical adoption of the method. In order to actually see if this assumption holds true, it is necessary to first perform further evaluation of the SECoMo approach itself.
 
 %in order to see how it contributes to having more practical evaluations - only guessing? - needs to be seen
 
-%calibration models!? a) hard??? ungenau b) only implicitly covers impact of programming style, languages, libraries used, dev environments etc -> there could be a great deal of influence (see noureddine -> impact of programming language? and capra -> influence of dev environment?)
+%LATER!! calibration models!? a) hard??? ungenau b) only implicitly covers impact of programming style, languages, libraries used, dev environments etc -> there could be a great deal of influence (see noureddine -> impact of programming language? and capra -> influence of dev environment?)
 
 %of the integration - how it can't be perfectly integrated?!
 
