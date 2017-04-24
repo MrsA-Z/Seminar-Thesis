@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.17)  24 APR 2017 02:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.17)  24 APR 2017 08:46
 entering extended mode
 **arbeit.tex
 (arbeit.tex
@@ -157,29 +157,31 @@ Missing character: There is no “ in font cmr9!
 
 
 {C:/Users/D059184/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 109--114
-
+Overfull \hbox (3.4935pt too wide) in paragraph at lines 111--117
+\OT1/cmr/m/n/10 Com-mis-sion on En-vi-ron-ment and De-vel-op-ment in 1987, also
+ known as the \OT1/cmr/m/it/10 Brundt-
  []
 
 [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 146.
+(Font)              <9> on input line 144.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 146.
- [4] [5] [6] [7]
+(Font)              <6> on input line 144.
+ [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 163--172
+
+ []
+
+[6] [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
 [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 333--346
+Underfull \hbox (badness 10000) in paragraph at lines 326--339
 
  []
 
-[12] [13] [14] [15]
-Underfull \vbox (badness 1102) has occurred while \output is active []
-
- [16]
-(arbeit.bbl [17]
+[12] [13] [14] [15] [16] [17] (arbeit.bbl [18]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no œ in font cmr9!
@@ -194,30 +196,30 @@ Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
- [18]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¤ in font cmr9!
+ [19]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¤ in font cmr9!
- [19]) [20] (arbeit.aux) ) 
+) [20] (arbeit.aux) ) 
 Here is how much of TeX's memory you used:
  705 strings out of 493698
  8221 string characters out of 3144406
- 72452 words of memory out of 3000000
+ 73452 words of memory out of 3000000
  4085 multiletter control sequences out of 15000+200000
  7980 words of font info for 28 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 29i,9n,21p,1180b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmti9.pfb>
-Output written on arbeit.pdf (20 pages, 206307 bytes).
+ 29i,9n,21p,1473b,290s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmti9.pfb>
+Output written on arbeit.pdf (20 pages, 208548 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
