@@ -1,0 +1,241 @@
+\begin{thebibliography}{10}
+
+\bibitem{agarwal_sustainable_2012}
+Shalabh Agarwal, Asoke Nath, and Dipayan Chowdhury.
+\newblock Sustainable approaches and good practices in green software
+  engineering.
+\newblock {\em International Journal of Research and Reviews in Computer
+  Science (IJRRCS)}, 3(1), 2012.
+
+\bibitem{karlskrona}
+Sedef Akinli-Kocack, Christoph Becker, Stefanie Betz, Coral Calero, Ruzanna
+  Chitchyan, Leticia Duboc, Steve~M. Easterbrook, Martin Mahaux, Birgit
+  Penzenstadler, Guillermo Rodriguez-Navas, Camille Salinesi, Norbert Seyff,
+  and Colin~C. Venters.
+\newblock The karlskrona manifesto for sustainability design, 2015.
+
+\bibitem{albertao_measuring_2010}
+F.~Albertao, J.~Xiao, C.~Tian, Y.~Lu, K.~Q. Zhang, and C.~Liu.
+\newblock Measuring the {Sustainability} {Performance} of {Software}
+  {Projects}.
+\newblock In {\em 2010 {IEEE} 7th {International} {Conference} on
+  {E}-{Business} {Engineering}}, pages 369--373, November 2010.
+
+\bibitem{amsel_toward_2011}
+Nadine Amsel, Zaid Ibrahim, Amir Malik, and Bill Tomlinson.
+\newblock Toward sustainable software engineering ({NIER} track).
+\newblock In {\em International {Conference} on {Software} {Engineering}}, May
+  2011.
+
+\bibitem{becker_sustainability_2015}
+Christoph Becker, Ruzanna Chitchyan, Leticia Duboc, Steve~M. Easterbrook,
+  Birgit Penzenstadler, Norbert Seyff, and Colin~C. Venters.
+\newblock Sustainability design and software: the karlskrona manifesto.
+\newblock In {\em International {Conference} on {Software} {Engineering}}, May
+  2015.
+
+\bibitem{berkhout_impacts_2001}
+Frans Berkhout and Julia Hertin.
+\newblock Impacts of information and communication technologies on
+  environmental sustainability: {Speculations} and evidence.
+\newblock {\em Report to the OECD, Brighton}, 21, 2001.
+
+\bibitem{betz_sustainable_2014}
+Stefanie Betz and Timm Caporale.
+\newblock Sustainable {Software} {System} {Engineering}.
+\newblock In {\em Cloud {Computing}}, December 2014.
+
+\bibitem{buchner_sust_16}
+Natalie Buchner.
+\newblock Understanding sustainable software - of impacts and development
+  models.
+\newblock Seminar paper, School of Economics and Management, Lund University,
+  Sweden, 2016.
+
+\bibitem{calero_green_2015}
+Coral Calero and Mario Piattini.
+\newblock {\em Green in {Software} {Engineering}}.
+\newblock Springer Publishing Company, Incorporated, 2015.
+
+\bibitem{capra_is_2012}
+Eugenio Capra, Chiara Francalanci, and Sandra~A. Slaughter.
+\newblock Is software “green”? {Application} development environments and
+  energy efficiency in open source applications.
+\newblock {\em Information and Software Technology}, 54(1):60--71, 2012.
+
+\bibitem{capra_green_2009}
+Eugenio Capra and Francesco Merlo.
+\newblock Green {IT}: {Everything} starts from the software.
+\newblock {\em ECIS 2009 Proceedings}, January 2009.
+
+\bibitem{dick_model_2010}
+Markus Dick, Stefan Naumann, and Norbert Kuhn.
+\newblock A {Model} and {Selected} {Instances} of {Green} and {Sustainable}
+  {Software}.
+\newblock In {\em What {Kind} of {Information} {Society}? {Governance},
+  {Virtuality}, {Surveillance}, {Sustainability}, {Resilience}}, pages
+  248--259. Springer, Berlin, Heidelberg, 2010.
+\newblock DOI: 10.1007/978-3-642-15479-9\_24.
+
+\bibitem{gladwin_shifting_1995}
+Thomas~N. Gladwin, James~J. Kennelly, and Tara-Shelomith Krause.
+\newblock Shifting paradigms for sustainable development: {Implications} for
+  management theory and research.
+\newblock {\em Academy of management Review}, 20(4):874--907, 1995.
+
+\bibitem{hilty_relevance_2006}
+Lorenz~M. Hilty, Peter Arnfalk, Lorenz Erdmann, James Goodman, Martin Lehmann,
+  and Patrick~A. Wäger.
+\newblock The relevance of information and communication technologies for
+  environmental sustainability–a prospective simulation study.
+\newblock {\em Environmental Modelling \& Software}, 21(11):1618--1629, 2006.
+
+\bibitem{hilty11}
+Lorenz~M. Hilty, Wolfgang Lohmann, and Elaine~M. Huang.
+\newblock Sustainability and {ICT} – {An} overview of the field, 2011.
+
+\bibitem{jamieson_sustainability_1998}
+Dale Jamieson.
+\newblock Sustainability and beyond.
+\newblock {\em Ecological Economics}, 24(2):183--192, 1998.
+
+\bibitem{johann_sustainable_2011}
+Timo Johann, Markus Dick, Eva Kern, and Stefan Naumann.
+\newblock Sustainable development, sustainable software, and sustainable
+  software engineering: {An} integrated approach.
+\newblock In {\em Humanities, {Science} \& {Engineering} {Research} ({SHUSER}),
+  2011 {Symposium}}. IEEE, June 2011.
+
+\bibitem{johann_how_2012}
+Timo Johann, Markus Dick, Stefan Naumann, and Eva Kern.
+\newblock How to {Measure} {Energy}-efficiency of {Software}: {Metrics} and
+  {Measurement} {Results}.
+\newblock In {\em Proceedings of the {First} {International} {Workshop} on
+  {Green} and {Sustainable} {Software}}, {GREENS} '12, pages 51--54,
+  Piscataway, NJ, USA, 2012. IEEE Press.
+
+\bibitem{kern_impacts_2015}
+Eva Kern, Markus Dick, Stefan Naumann, and Tim Hiller.
+\newblock Impacts of software and its engineering on the carbon footprint of
+  {ICT}.
+\newblock {\em Environmental Impact Assessment Review}, 52:53--61, April 2015.
+
+\bibitem{gartner07}
+Simon Mingay.
+\newblock {GREEN} it: A new industry shock wave, 2007.
+
+\bibitem{naumann_greensoft_2011}
+Stefan Naumann, Markus Dick, Eva Kern, and Timo Johann.
+\newblock The {GREENSOFT} {Model}: {A} reference model for green and
+  sustainable software and its engineering.
+\newblock {\em Sustainable Computing: Informatics and Systems}, 1(4):294--304,
+  December 2011.
+
+\bibitem{naumann_how_2008}
+Stefan Naumann, Sascha Gresk, and Kerstin Schäfer.
+\newblock How green is the web? {Visualizing} the power quality of websites.
+\newblock {\em EnviroInfo}, pages 62--65, 2008.
+
+\bibitem{nino_sustainable_2017}
+Florencia~Soto Nino.
+\newblock Sustainable development goals - {United} {Nations}, 2017.
+
+\bibitem{noureddine_preliminary_2012}
+A.~Noureddine, A.~Bourdon, R.~Rouvoy, and L.~Seinturier.
+\newblock A preliminary study of the impact of software engineering on
+  {GreenIT}.
+\newblock In {\em 2012 {First} {International} {Workshop} on {Green} and
+  {Sustainable} {Software} ({GREENS})}, pages 21--27, June 2012.
+
+\bibitem{Brundtland1987}
+World~Commission on~Environment and Development.
+\newblock Our common future.
+\newblock also: Brundtland report, United Nations, 1987.
+
+\bibitem{penzenstadler_sustainability_2012}
+B.~Penzenstadler, V.~Bauer, C.~Calero, and X.~Franch.
+\newblock Sustainability in software engineering: a systematic literature
+  review.
+\newblock pages 32--41, January 2012.
+
+\bibitem{penzenstadler_supporting_2012}
+Birgit Penzenstadler.
+\newblock Supporting sustainability aspects in software engineering.
+\newblock In {\em 3rd international conference on computational sustainability
+  ({CompSust})}, 2012.
+
+\bibitem{penzenstadler_what_13}
+Birgit Penzenstadler.
+\newblock What does {Sustainability} mean in and for {Software} {Engineering}?
+  ({PDF} {Download} {Available}), 2013.
+
+\bibitem{penzenstadler_generic_2013}
+Birgit Penzenstadler and Henning Femmer.
+\newblock {\em A generic model for sustainability with process- and
+  product-specific instances}.
+\newblock March 2013.
+
+\bibitem{penzenstadler_systematic_2014}
+Birgit Penzenstadler, Ankita Raturi, Debra Richardson, Coral Calero, Henning
+  Femmer, and Xavier Franch.
+\newblock Systematic {Mapping} {Study} on {Software} {Engineering} for
+  {Sustainability} ({SE}4s).
+\newblock In {\em Proceedings of the 18th {International} {Conference} on
+  {Evaluation} and {Assessment} in {Software} {Engineering}}, {EASE} '14, pages
+  14:1--14:14, New York, NY, USA, 2014. ACM.
+
+\bibitem{penzenstadler_safety_2014}
+Birgit Penzenstadler, Ankita Raturi, Debra~J. Richardson, and Bill Tomlinson.
+\newblock Safety, {Security}, {Now} {Sustainability}: {The} {Nonfunctional}
+  {Requirement} for the 21st {Century}.
+\newblock {\em IEEE Software}, 31(3):40--47, May 2014.
+
+\bibitem{raturi_developing_2014}
+Ankita Raturi, Birgit Penzenstadler, Bill Tomlinson, and Debra~J. Richardson.
+\newblock {\em Developing a sustainability non-functional requirements
+  framework}.
+\newblock June 2014.
+
+\bibitem{schulze_cost_2016}
+Thomas Schulze.
+\newblock {\em A {Cost} model for {Expressing} and {Estimating} {Ecological}
+  {Costs} of {Software}-{Driven} {Systems}}.
+\newblock PhD thesis, Universität Mannheim, Mannheim, 2016.
+
+\bibitem{seacord_measuring_2003}
+R.~C. Seacord, J.~Elm, W.~Goethert, G.~A. Lewis, D.~Plakosh, J.~Robert,
+  L.~Wrage, and M.~Lindvall.
+\newblock Measuring software sustainability.
+\newblock In {\em International {Conference} on {Software} {Maintenance}, 2003.
+  {ICSM} 2003. {Proceedings}.}, pages 450--459, September 2003.
+
+\bibitem{shenoy_green_2011}
+S.~S. Shenoy and R.~Eeratta.
+\newblock Green software development model: {An} approach towards sustainable
+  software development.
+\newblock In {\em 2011 {Annual} {IEEE} {India} {Conference}}, pages 1--6,
+  December 2011.
+
+\bibitem{tate_sustainable_2005}
+Kevin Tate.
+\newblock {\em Sustainable software development an agile perspective}.
+\newblock Safari {Books} {Online}. Addison Wesley, Upper Saddle River, NJ,
+  2005.
+
+\bibitem{smart2020}
+{The Climate Group}.
+\newblock {SMART} 2020: Enabling the low carbon economy in the information age,
+  2008.
+
+\bibitem{UN_transform_15}
+{United Nations}.
+\newblock Transforming our world: the 2030 agenda for sustainable development.
+\newblock New York, 2015.
+
+\bibitem{venters_software_2014}
+Colin~C. Venters, Caroline Jay, Lydia Lau, Michael~K. Griffiths, Violeta
+  Holmes, Rupert Ward, Jim Austin, Charlie Dibsdale, and Jie Xu.
+\newblock {\em Software {Sustainability}: {The} {Modern} {Tower} of {Babel}}.
+\newblock November 2014.
+
+\end{thebibliography}

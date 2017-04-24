@@ -1,0 +1,13 @@
+\contentsline {title}{Enhancing Sustainable Software Engineering Methods through SECoMo}{1}
+\authcount {1}
+\contentsline {author}{Natalie Buchner}{1}
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}Background}{3}
+\contentsline {section}{\numberline {3}Related Work in Sustainable Software Engineering}{3}
+\contentsline {subsection}{\numberline {3.1}State of Research}{3}
+\contentsline {subsubsection}{Principles, Guidelines, Best practices}{3}
+\contentsline {subsection}{\numberline {3.2}The SECoMo approach}{3}
+\contentsline {subsubsection}{What is SECoMo about?}{4}
+\contentsline {subsubsection}{How can SECoMo be integrated in a software engineering project?}{4}
+\contentsline {section}{\numberline {4}Contributions}{5}
+\contentsline {section}{\numberline {5}Conclusion}{5}
