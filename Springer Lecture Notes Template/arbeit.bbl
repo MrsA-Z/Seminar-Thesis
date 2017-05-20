@@ -7,13 +7,6 @@ Shalabh Agarwal, Asoke Nath, and Dipayan Chowdhury.
 \newblock {\em International Journal of Research and Reviews in Computer
   Science (IJRRCS)}, 3(1), 2012.
 
-\bibitem{karlskrona}
-Sedef Akinli-Kocack, Christoph Becker, Stefanie Betz, Coral Calero, Ruzanna
-  Chitchyan, Leticia Duboc, Steve~M. Easterbrook, Martin Mahaux, Birgit
-  Penzenstadler, Guillermo Rodriguez-Navas, Camille Salinesi, Norbert Seyff,
-  and Colin~C. Venters.
-\newblock The karlskrona manifesto for sustainability design, 2015.
-
 \bibitem{albertao_measuring_2010}
 F.~Albertao, J.~Xiao, C.~Tian, Y.~Lu, K.~Q. Zhang, and C.~Liu.
 \newblock Measuring the {Sustainability} {Performance} of {Software}
@@ -44,13 +37,6 @@ Frans Berkhout and Julia Hertin.
 Stefanie Betz and Timm Caporale.
 \newblock Sustainable {Software} {System} {Engineering}.
 \newblock In {\em Cloud {Computing}}, December 2014.
-
-\bibitem{buchner_sust_16}
-Natalie Buchner.
-\newblock Understanding sustainable software - of impacts and development
-  models.
-\newblock Seminar paper, School of Economics and Management, Lund University,
-  Sweden, 2016.
 
 \bibitem{calero_green_2015}
 Coral Calero and Mario Piattini.
@@ -113,6 +99,13 @@ Timo Johann, Markus Dick, Stefan Naumann, and Eva Kern.
 \newblock In {\em Proceedings of the {First} {International} {Workshop} on
   {Green} and {Sustainable} {Software}}, {GREENS} '12, pages 51--54,
   Piscataway, NJ, USA, 2012. IEEE Press.
+
+\bibitem{kern_how_2016}
+Eva Kern.
+\newblock How to cast the approaches on green software engineering upon the
+  world: {Collection} of ideas in order to exit the ivory tower.
+\newblock In {\em 4th {International} {Conference} on {ICT} for
+  {Sustainability} ({ICT}4S)}, Amsterdam, Niederlande, August 2016.
 
 \bibitem{kern_impacts_2015}
 Eva Kern, Markus Dick, Stefan Naumann, and Tim Hiller.
