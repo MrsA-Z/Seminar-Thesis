@@ -33,11 +33,6 @@ Frans Berkhout and Julia Hertin.
   environmental sustainability: {Speculations} and evidence.
 \newblock {\em Report to the OECD, Brighton}, 21, 2001.
 
-\bibitem{betz_sustainable_2014}
-Stefanie Betz and Timm Caporale.
-\newblock Sustainable {Software} {System} {Engineering}.
-\newblock In {\em Cloud {Computing}}, December 2014.
-
 \bibitem{calero_green_2015}
 Coral Calero and Mario Piattini.
 \newblock {\em Green in {Software} {Engineering}}.
@@ -48,11 +43,6 @@ Eugenio Capra, Chiara Francalanci, and Sandra~A. Slaughter.
 \newblock Is software “green”? {Application} development environments and
   energy efficiency in open source applications.
 \newblock {\em Information and Software Technology}, 54(1):60--71, 2012.
-
-\bibitem{capra_green_2009}
-Eugenio Capra and Francesco Merlo.
-\newblock Green {IT}: {Everything} starts from the software.
-\newblock {\em ECIS 2009 Proceedings}, January 2009.
 
 \bibitem{dick_model_2010}
 Markus Dick, Stefan Naumann, and Norbert Kuhn.
@@ -115,7 +105,7 @@ Eva Kern, Markus Dick, Stefan Naumann, and Tim Hiller.
 
 \bibitem{gartner07}
 Simon Mingay.
-\newblock {GREEN} it: A new industry shock wave, 2007.
+\newblock {GREEN} {IT}: A {N}ew {I}ndustry {S}hock {W}ave, 2007.
 
 \bibitem{naumann_greensoft_2011}
 Stefan Naumann, Markus Dick, Eva Kern, and Timo Johann.
@@ -195,25 +185,12 @@ Thomas Schulze.
   {Costs} of {Software}-{Driven} {Systems}}.
 \newblock PhD thesis, Universität Mannheim, Mannheim, 2016.
 
-\bibitem{seacord_measuring_2003}
-R.~C. Seacord, J.~Elm, W.~Goethert, G.~A. Lewis, D.~Plakosh, J.~Robert,
-  L.~Wrage, and M.~Lindvall.
-\newblock Measuring software sustainability.
-\newblock In {\em International {Conference} on {Software} {Maintenance}, 2003.
-  {ICSM} 2003. {Proceedings}.}, pages 450--459, September 2003.
-
 \bibitem{shenoy_green_2011}
 S.~S. Shenoy and R.~Eeratta.
 \newblock Green software development model: {An} approach towards sustainable
   software development.
 \newblock In {\em 2011 {Annual} {IEEE} {India} {Conference}}, pages 1--6,
   December 2011.
-
-\bibitem{tate_sustainable_2005}
-Kevin Tate.
-\newblock {\em Sustainable software development an agile perspective}.
-\newblock Safari {Books} {Online}. Addison Wesley, Upper Saddle River, NJ,
-  2005.
 
 \bibitem{smart2020}
 {The Climate Group}.
