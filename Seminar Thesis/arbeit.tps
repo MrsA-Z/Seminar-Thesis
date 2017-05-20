@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1719
-NormalPos.bottom=746
+NormalPos.right=737
+NormalPos.bottom=880
 Class=LaTeXView
-Document=arbeit.tex
+Document=kapitel\contributions.tex
 
 [Frame0_View0,0]
-TopLine=7
-Cursor=697
+TopLine=203
+Cursor=15315
 
 [Frame1]
 Flags=0
@@ -29,14 +29,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1719
-NormalPos.bottom=746
+NormalPos.right=737
+NormalPos.bottom=880
 Class=LaTeXView
-Document=kapitel\abstract.tex
+Document=kapitel\background.tex
 
 [Frame1_View0,0]
-TopLine=0
-Cursor=1509
+TopLine=43
+Cursor=3149
 
 [Frame2]
 Flags=0
@@ -47,14 +47,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1719
-NormalPos.bottom=746
+NormalPos.right=737
+NormalPos.bottom=880
 Class=LaTeXView
-Document=kapitel\introduction.tex
+Document=kapitel\sustainabilityIT.tex
 
 [Frame2_View0,0]
-TopLine=0
-Cursor=732
+TopLine=582
+Cursor=34259
 
 [Frame3]
 Flags=0
@@ -65,14 +65,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1719
-NormalPos.bottom=746
+NormalPos.right=737
+NormalPos.bottom=880
 Class=LaTeXView
-Document=kapitel\background.tex
+Document=kapitel\conclusion.tex
 
 [Frame3_View0,0]
 TopLine=0
-Cursor=0
+Cursor=70
 
 [Frame4]
 Flags=0
@@ -83,14 +83,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1719
-NormalPos.bottom=746
+NormalPos.right=737
+NormalPos.bottom=880
 Class=LaTeXView
-Document=kapitel\contributions.tex
+Document=kapitel\introduction.tex
 
 [Frame4_View0,0]
-TopLine=0
-Cursor=395
+TopLine=76
+Cursor=5415
 
 [Frame5]
 Flags=0
@@ -101,14 +101,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1719
-NormalPos.bottom=746
-Class=BibTeXView
-Document=literatur\lit.bib
+NormalPos.right=737
+NormalPos.bottom=880
+Class=LaTeXView
+Document=kapitel\SECoMo.tex
 
 [Frame5_View0,0]
-TopLine=42
-Cursor=1388
+TopLine=83
+Cursor=8477
 
 [Frame6]
 Flags=0
@@ -119,14 +119,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1719
-NormalPos.bottom=746
+NormalPos.right=737
+NormalPos.bottom=880
 Class=LaTeXView
-Document=kapitel\grafiken.tex
+Document=arbeit.tex
 
 [Frame6_View0,0]
-TopLine=0
-Cursor=0
+TopLine=179
+Cursor=7096
 
 [Frame7]
 Flags=0
@@ -137,16 +137,70 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1719
-NormalPos.bottom=746
-Class=LaTeXView
-Document=kapitel\SECoMo.tex
+NormalPos.right=737
+NormalPos.bottom=880
+Class=BibTeXView
+Document=literatur\lit.bib
 
 [Frame7_View0,0]
-TopLine=22
-Cursor=6863
+TopLine=215
+Cursor=6299
+
+[Frame8]
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-1
+MaxPos.y=-1
+NormalPos.left=4
+NormalPos.top=26
+NormalPos.right=737
+NormalPos.bottom=880
+Class=LaTeXView
+Document=kapitel\abstract.tex
+
+[Frame8_View0,0]
+TopLine=0
+Cursor=2932
+
+[Frame9]
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-1
+MaxPos.y=-1
+NormalPos.left=4
+NormalPos.top=26
+NormalPos.right=737
+NormalPos.bottom=880
+Class=LaTeXView
+Document=kapitel\titel.tex
+
+[Frame9_View0,0]
+TopLine=16
+Cursor=1456
+
+[Frame10]
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-1
+MaxPos.y=-1
+NormalPos.left=4
+NormalPos.top=26
+NormalPos.right=737
+NormalPos.bottom=880
+Class=LaTeXView
+Document=kapitel\grafiken.tex
+
+[Frame10_View0,0]
+TopLine=0
+Cursor=0
 
 [SessionInfo]
-FrameCount=8
+FrameCount=11
 ActiveFrame=3
 
