@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.17)  21 MAY 2017 01:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.17)  22 MAY 2017 00:46
 entering extended mode
 **arbeit.tex
 (arbeit.tex
@@ -159,11 +159,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--53
 
 {C:/Users/D059184/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2] [3] [4] [5] [6] [7] [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation `schulze_cost_2016.' on page 9 undefined on input line 
-216.
+ [9]
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 252--260
 
-[9] [10] [11] [12] [13] (arbeit.bbl
+ []
+
+[12] (arbeit.bbl [13]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no œ in font cmr9!
@@ -175,38 +179,33 @@ Missing character: There is no ¤ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
- [14]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
+ [14]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¤ in font cmr9!
- [15]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¤ in font cmr9!
-) [16] (arbeit.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+) [15] (arbeit.aux) ) 
 Here is how much of TeX's memory you used:
- 764 strings out of 493698
- 8992 string characters out of 3144406
+ 763 strings out of 493698
+ 8972 string characters out of 3144406
  75741 words of memory out of 3000000
- 4146 multiletter control sequences out of 15000+200000
+ 4145 multiletter control sequences out of 15000+200000
  6456 words of font info for 23 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 29i,5n,21p,1549b,290s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmti9.pfb>
-Output written on arbeit.pdf (16 pages, 178705 bytes).
+ 29i,5n,21p,1563b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on arbeit.pdf (15 pages, 175111 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

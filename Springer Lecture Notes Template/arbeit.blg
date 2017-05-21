@@ -3,9 +3,8 @@ The style file: plain.bst
 Database file #1: lit.bib
 Warning--entry type for "smart2020" isn't style-file defined
 --line 30 of file lit.bib
-Warning--I didn't find a database entry for "schulze_cost_2016."
 Warning--empty journal in penzenstadler_sustainability_2012
 Warning--empty publisher in penzenstadler_generic_2013
 Warning--empty publisher in raturi_developing_2014
 Warning--empty publisher in venters_software_2014
-(There were 6 warnings)
+(There were 5 warnings)
