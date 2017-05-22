@@ -215,4 +215,12 @@ Colin~C Venters, Caroline Jay, LMS Lau, Michael~K Griffiths, Violeta Holmes,
 \newblock In {\em CEUR Workshop Proceedings}, volume 1216, pages 7--12. CEUR,
   2014.
 
+\bibitem{vor2012coolemall}
+Micha vor~dem Berge, Wolfgang Christmann, Eugen Volk, Stefan Wesner, Ariel
+  Oleksiak, Tomasz Piontek, Georges Da~Costa, and Jean-Marc Pierson.
+\newblock Coolemall-models and tools for optimization of data center
+  energy-efficiency.
+\newblock In {\em Sustainable Internet and ICT for Sustainability (SustainIT),
+  2012}, pages 1--5. IEEE, 2012.
+
 \end{thebibliography}
