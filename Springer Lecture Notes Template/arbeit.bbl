@@ -23,7 +23,7 @@ Nadine Amsel, Zaid Ibrahim, Amir Malik, and Bill Tomlinson.
 \bibitem{becker_sustainability_2015}
 Christoph Becker, Ruzanna Chitchyan, Leticia Duboc, Steve~M. Easterbrook,
   Birgit Penzenstadler, Norbert Seyff, and Colin~C. Venters.
-\newblock Sustainability design and software: the karlskrona manifesto.
+\newblock Sustainability design and software: The karlskrona manifesto.
 \newblock In {\em International {Conference} on {Software} {Engineering}}, May
   2015.
 
@@ -51,7 +51,6 @@ Markus Dick, Stefan Naumann, and Norbert Kuhn.
 \newblock In {\em What {Kind} of {Information} {Society}? {Governance},
   {Virtuality}, {Surveillance}, {Sustainability}, {Resilience}}, pages
   248--259. Springer, Berlin, Heidelberg, 2010.
-\newblock DOI: 10.1007/978-3-642-15479-9\_24.
 
 \bibitem{gladwin_shifting_1995}
 Thomas~N. Gladwin, James~J. Kennelly, and Tara-Shelomith Krause.
@@ -59,28 +58,22 @@ Thomas~N. Gladwin, James~J. Kennelly, and Tara-Shelomith Krause.
   management theory and research.
 \newblock {\em Academy of management Review}, 20(4):874--907, 1995.
 
+\bibitem{hilty11}
+Lorenz Hilty, Wolfgang Lohmann, and Elaine Huang.
+\newblock Sustainability and ict — an overview of the field.
+\newblock {\em Politeia}, 27(104):13--28, 2011.
+
 \bibitem{hilty_relevance_2006}
 Lorenz~M. Hilty, Peter Arnfalk, Lorenz Erdmann, James Goodman, Martin Lehmann,
-  and Patrick~A. Wäger.
+  and Patrick~A. W\"ager.
 \newblock The relevance of information and communication technologies for
   environmental sustainability–a prospective simulation study.
 \newblock {\em Environmental Modelling \& Software}, 21(11):1618--1629, 2006.
-
-\bibitem{hilty11}
-Lorenz~M. Hilty, Wolfgang Lohmann, and Elaine~M. Huang.
-\newblock Sustainability and {ICT} – {An} overview of the field, 2011.
 
 \bibitem{jamieson_sustainability_1998}
 Dale Jamieson.
 \newblock Sustainability and beyond.
 \newblock {\em Ecological Economics}, 24(2):183--192, 1998.
-
-\bibitem{johann_sustainable_2011}
-Timo Johann, Markus Dick, Eva Kern, and Stefan Naumann.
-\newblock Sustainable development, sustainable software, and sustainable
-  software engineering: {An} integrated approach.
-\newblock In {\em Humanities, {Science} \& {Engineering} {Research} ({SHUSER}),
-  2011 {Symposium}}. IEEE, June 2011.
 
 \bibitem{johann_how_2012}
 Timo Johann, Markus Dick, Stefan Naumann, and Eva Kern.
@@ -106,6 +99,8 @@ Eva Kern, Markus Dick, Stefan Naumann, and Tim Hiller.
 \bibitem{gartner07}
 Simon Mingay.
 \newblock {GREEN} {IT}: A {N}ew {I}ndustry {S}hock {W}ave, 2007.
+\newblock \url{http://www.ictliteracy.info/rf.pdf/Gartner_on_Green_IT.pdf},
+  Accessed on: 22.04.2017.
 
 \bibitem{naumann_greensoft_2011}
 Stefan Naumann, Markus Dick, Eva Kern, and Timo Johann.
@@ -115,13 +110,16 @@ Stefan Naumann, Markus Dick, Eva Kern, and Timo Johann.
   December 2011.
 
 \bibitem{naumann_how_2008}
-Stefan Naumann, Sascha Gresk, and Kerstin Schäfer.
+Stefan Naumann, Sascha Gresk, and Kerstin Sch\"afer.
 \newblock How green is the web? {Visualizing} the power quality of websites.
 \newblock {\em EnviroInfo}, pages 62--65, 2008.
 
 \bibitem{nino_sustainable_2017}
 Florencia~Soto Nino.
 \newblock Sustainable development goals - {United} {Nations}, 2017.
+\newblock
+  \url{http://www.un.org/sustainabledevelopment/sustainable-development-goals/},
+  Accessed on: 21.04.2017.
 
 \bibitem{noureddine_preliminary_2012}
 A.~Noureddine, A.~Bourdon, R.~Rouvoy, and L.~Seinturier.
@@ -137,26 +135,28 @@ World~Commission on~Environment and Development.
 
 \bibitem{penzenstadler_sustainability_2012}
 B.~Penzenstadler, V.~Bauer, C.~Calero, and X.~Franch.
-\newblock Sustainability in software engineering: a systematic literature
+\newblock Sustainability in software engineering: A systematic literature
   review.
 \newblock pages 32--41, January 2012.
 
 \bibitem{penzenstadler_supporting_2012}
 Birgit Penzenstadler.
 \newblock Supporting sustainability aspects in software engineering.
-\newblock In {\em 3rd international conference on computational sustainability
+\newblock In {\em 3rd International Conference on Computational Sustainability
   ({CompSust})}, 2012.
 
 \bibitem{penzenstadler_what_13}
 Birgit Penzenstadler.
-\newblock What does {Sustainability} mean in and for {Software} {Engineering}?
-  ({PDF} {Download} {Available}), 2013.
+\newblock What does sustainability mean in and for software engineering.
+\newblock In {\em Proceedings of the 1st International Conference on ICT for
+  Sustainability (ICT4S)}, 2013.
 
 \bibitem{penzenstadler_generic_2013}
 Birgit Penzenstadler and Henning Femmer.
-\newblock {\em A generic model for sustainability with process- and
-  product-specific instances}.
-\newblock March 2013.
+\newblock A generic model for sustainability with process-and product-specific
+  instances.
+\newblock In {\em Proceedings of the 2013 workshop on Green in/by software
+  engineering}, pages 3--8. ACM, 2013.
 
 \bibitem{penzenstadler_systematic_2014}
 Birgit Penzenstadler, Ankita Raturi, Debra Richardson, Coral Calero, Henning
@@ -174,16 +174,16 @@ Birgit Penzenstadler, Ankita Raturi, Debra~J. Richardson, and Bill Tomlinson.
 \newblock {\em IEEE Software}, 31(3):40--47, May 2014.
 
 \bibitem{raturi_developing_2014}
-Ankita Raturi, Birgit Penzenstadler, Bill Tomlinson, and Debra~J. Richardson.
-\newblock {\em Developing a sustainability non-functional requirements
-  framework}.
-\newblock June 2014.
+Ankita Raturi, Birgit Penzenstadler, Bill Tomlinson, and Debra Richardson.
+\newblock Developing a sustainability non-functional requirements framework.
+\newblock In {\em Proceedings of the 3rd International Workshop on Green and
+  Sustainable Software}, pages 1--8. ACM, 2014.
 
 \bibitem{schulze_cost_2016}
 Thomas Schulze.
 \newblock {\em A {Cost} model for {Expressing} and {Estimating} {Ecological}
   {Costs} of {Software}-{Driven} {Systems}}.
-\newblock PhD thesis, Universität Mannheim, Mannheim, 2016.
+\newblock PhD thesis, Universit\"at Mannheim, Mannheim, 2016.
 
 \bibitem{shenoy_green_2011}
 S.~S. Shenoy and R.~Eeratta.
@@ -196,16 +196,23 @@ S.~S. Shenoy and R.~Eeratta.
 {The Climate Group}.
 \newblock {SMART} 2020: Enabling the low carbon economy in the information age,
   2008.
+\newblock
+  \url{http://gesi.org/files/Reports/Smart%202020%20report%20in%20English.pdf},
+  Accessed on: 22.04.2017.
 
 \bibitem{UN_transform_15}
 {United Nations}.
 \newblock Transforming our world: the 2030 agenda for sustainable development.
 \newblock New York, 2015.
+\newblock
+  \url{http://www.un.org/ga/search/view_doc.asp?symbol=A/RES/70/1&Lang=E},
+  Accessed on: 22.04.2017.
 
 \bibitem{venters_software_2014}
-Colin~C. Venters, Caroline Jay, Lydia Lau, Michael~K. Griffiths, Violeta
-  Holmes, Rupert Ward, Jim Austin, Charlie Dibsdale, and Jie Xu.
-\newblock {\em Software {Sustainability}: {The} {Modern} {Tower} of {Babel}}.
-\newblock November 2014.
+Colin~C Venters, Caroline Jay, LMS Lau, Michael~K Griffiths, Violeta Holmes,
+  Rupert~R Ward, Jim Austin, Charlie~E Dibsdale, and Jie Xu.
+\newblock Software sustainability: The modern tower of babel.
+\newblock In {\em CEUR Workshop Proceedings}, volume 1216, pages 7--12. CEUR,
+  2014.
 
 \end{thebibliography}
